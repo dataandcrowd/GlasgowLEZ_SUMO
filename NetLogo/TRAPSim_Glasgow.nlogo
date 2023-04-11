@@ -143,12 +143,12 @@ to setup
   set-gis
   add-labels
   activate-links
-  set-signals
-  set-random-cars
-  set-resident-cars
-  set-resident-driver
-  set-incoming-traffic
-  set-subway-commuters
+  ;set-signals
+  ;set-random-cars
+  ;set-resident-cars
+  ;set-resident-driver
+  ;set-incoming-traffic
+  ;set-subway-commuters
   set-OD
   set-path-node
   set-path-link
@@ -226,7 +226,7 @@ end
 
 to set-gis
   ask patches [ set pcolor white ]                                     ;; set a white background
-  set area  gis:load-dataset "GIS/LEZ_Extent.shp"              ;; set shapefile
+  set area  gis:load-dataset "GIS/LEZ_DataZone.shp"              ;; set shapefile
   set roads gis:load-dataset "GIS/LEZ_road.shp"              ;; set road network
   let world_envelope gis:load-dataset "GIS/LEZ_road.shp" ;; set spatial extent
   gis:set-world-envelope (gis:envelope-union-of gis:envelope-of world_envelope) ;; set spatial extent
@@ -301,8 +301,8 @@ to set-gis
 
 ;; Create turtles representing the nodes. Create links to connect them
   foreach gis:feature-list-of roads [ vector-feature ->
-    let first-vertex gis:property-value vector-feature "UP_FROM_NO"
-    let last-vertex gis:property-value vector-feature "UP_TO_NO"
+    let first-vertex gis:property-value vector-feature "fid"
+    let last-vertex gis:property-value vector-feature "fid"
 
     foreach  gis:vertex-lists-of vector-feature [ vertex ->
       let previous-node nobody
@@ -366,8 +366,8 @@ foreach gis:feature-list-of area [vector-feature ->
         [ set xcor item 0 centroid
           set ycor item 1 centroid
           set size 0
-          set label-color blue
-          set label gis:property-value vector-feature "adm_dr_nm_"
+          set label-color black
+          set label gis:property-value vector-feature "Name"
       ]]]
   ask nodes [set dong_code [dong-code] of patch-here]
 
@@ -381,16 +381,16 @@ to activate-links
       "Taepyeong-ro"  "Sejong-daero"  "Jong-ro"  "Eulji-ro"  "Seosomun-ro" "Donhwamun-ro" "Sejong-daero 23-gil"]
 
     foreach gis:feature-list-of roads [ vector-feature-sub ->
-      let mspeed gis:property-value vector-feature-sub "MAX_SPD"
-      let vector-start gis:property-value vector-feature-sub "UP_FROM_NO"
-      let vector-end gis:property-value vector-feature-sub "UP_TO_NO"
+      ;let mspeed gis:property-value vector-feature-sub "MAX_SPD"
+      let vector-start gis:property-value vector-feature-sub "fid"
+      let vector-end gis:property-value vector-feature-sub "fid"
       let start-end list vector-start vector-end
       let end-start list vector-end vector-start
 
-      if way = start-end [set road-name gis:property-value vector-feature-sub "ROAD_NAME_"]
+      if way = start-end [set road-name gis:property-value vector-feature-sub "name1"]
       if road-name = one-of daero [set Daero? true]
       if road-name = 0 or road-name = "" [set road-name [name] of end2 ]
-      set max-spd read-from-string mspeed
+      set max-spd 20;read-from-string mspeed
          ]
   ]
 end
