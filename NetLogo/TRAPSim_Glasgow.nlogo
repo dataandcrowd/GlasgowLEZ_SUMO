@@ -27,11 +27,11 @@ breed [cars car]
 breed [employees employee]
 breed [drivers driver]
                                              ; XXX-own is the attributed tied to each entity group
-links-own [                                  ; For instance, road-name, is-road?, max-spd, Daero?, and weight appear in the attribute table of each road segment
-  road-name
+links-own [                                  ; For instance, road_name, is-road?, max-spd, Daero?, and weight appear in the attribute table of each road segment
+  road_name
+  road_type
   is-road?
   max-spd
-  Daero?
   weight
 ]
 
@@ -228,7 +228,7 @@ to set-gis
   ask patches [ set pcolor white ]                                     ;; set a white background
   set area  gis:load-dataset "GIS/LEZ_DataZone.shp"              ;; set shapefile
   set roads gis:load-dataset "GIS/LEZ_road.shp"              ;; set road network
-  let world_envelope gis:load-dataset "GIS/LEZ_road.shp" ;; set spatial extent
+  let world_envelope gis:load-dataset "GIS/LEZ_Extent_Road.shp" ;; set spatial extent
   gis:set-world-envelope (gis:envelope-union-of gis:envelope-of world_envelope) ;; set spatial extent
 
 
@@ -377,8 +377,8 @@ to activate-links
   ask links [
     set is-road? true
     let way list [line-start] of end1 [line-end] of end2
-    let daero ["Jahamun-ro"  "Sajik-ro"  "Samil-daero"  "Yulgok-ro"  "Toegye-ro" "Saemunan-ro 3-gil" "Jangchungdan-ro"
-      "Taepyeong-ro"  "Sejong-daero"  "Jong-ro"  "Eulji-ro"  "Seosomun-ro" "Donhwamun-ro" "Sejong-daero 23-gil"]
+    ;let daero ["Jahamun-ro"  "Sajik-ro"  "Samil-daero"  "Yulgok-ro"  "Toegye-ro" "Saemunan-ro 3-gil" "Jangchungdan-ro"
+    ;  "Taepyeong-ro"  "Sejong-daero"  "Jong-ro"  "Eulji-ro"  "Seosomun-ro" "Donhwamun-ro" "Sejong-daero 23-gil"]
 
     foreach gis:feature-list-of roads [ vector-feature-sub ->
       ;let mspeed gis:property-value vector-feature-sub "MAX_SPD"
@@ -387,10 +387,10 @@ to activate-links
       let start-end list vector-start vector-end
       let end-start list vector-end vector-start
 
-      if way = start-end [set road-name gis:property-value vector-feature-sub "name1"]
-      if road-name = one-of daero [set Daero? true]
-      if road-name = 0 or road-name = "" [set road-name [name] of end2 ]
-      set max-spd 20;read-from-string mspeed
+      if way = start-end [set road_name gis:property-value vector-feature-sub "name1"]
+      if way = start-end [set road_type gis:property-value vector-feature-sub "class"]
+      if road_name = 0 or road_name = "" [set road_name [name] of end2 ]
+      ifelse road_type = "Motorway" [set max-spd 30 + random 20][set max-spd 20];read-from-string mspeed
          ]
   ]
 end
@@ -441,7 +441,7 @@ to set-random-cars
     set origin one-of nodes move-to origin
             ]
 
-  ask n-of (int(.7 * count cars)) cars [set fueltype "Gasoline"]   ; 70% of the vehicles in Seoul CBD owns gasoline (unleaded) cars
+  ask n-of (int(.5 * count cars)) cars [set fueltype "Gasoline"]   ; 70% of the vehicles in Seoul CBD owns gasoline (unleaded) cars
   ask cars with [fueltype != "Gasoline"][set fueltype "Diesel" ]   ; the next majority is Diesel
 end
 
@@ -1465,26 +1465,26 @@ to store-raster
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-632
-40
-1105
-625
+811
+53
+1384
+592
 -1
 -1
-3.0
+5.0
 1
 11
 1
 1
 1
 0
-1
-1
+0
+0
 1
 0
-154
+112
 0
-191
+105
 1
 1
 1
@@ -1571,11 +1571,11 @@ count cars
 11
 
 TEXTBOX
-838
-10
-1033
-48
-Seoul CBD
+1044
+23
+1239
+61
+Glasgow CBD
 18
 0.0
 1
