@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2019-05-10 09:07:41.868000 by additional
+  options: -a parking.add.xml -n osm.net.xml <doubleminus>max-number-alternatives 5 <doubleminus>max-distance-alternatives 200 <doubleminus>min-capacity-visibility-true 100 <doubleminus>max-distance-visibility-true 50 -o rerouter.add.xml
+-->
+<additional>
+
+    <rerouter id="pa1" edges="143308587#1">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> 
+            <parkingAreaReroute id="pa1" visible="true"/> <!-- dist: 0.0 -->
+            <parkingAreaReroute id="pa2" visible="true"/> <!-- dist: 13.6225259356 -->
+        </interval>
+    </rerouter>
+
+    <rerouter id="pa2" edges="143308590#0">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> 
+            <parkingAreaReroute id="pa2" visible="true"/> <!-- dist: 0.0 -->
+            <parkingAreaReroute id="pa1" visible="true"/> <!-- dist: 13.0361391548 -->
+        </interval>
+    </rerouter>
+</additional>

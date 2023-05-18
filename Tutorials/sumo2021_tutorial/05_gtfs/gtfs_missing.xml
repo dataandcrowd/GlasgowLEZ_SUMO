@@ -1,0 +1,75 @@
+<missingElements>
+    <stop id="070101001540" name="Berlin  Im Bauernbusch Köpenicker Str." ptLine="172"/>
+    <stop id="070101001545" name="Berlin  Im Bauernbusch Köpenicker Str." ptLine="172"/>
+    <stop id="070101005265" name="Berlin  Trützschlerstr." ptLine="160"/>
+    <stop id="070101005596" name="Berlin  Springbornstr." ptLine="160"/>
+    <stop id="070101005637" name="Berlin  Gerhard-Sedlmayr-Str." ptLine="163"/>
+    <stop id="070101005669" name="Berlin  Benno-König-Str." ptLine="163"/>
+    <stop id="070101005670" name="Berlin  Landfliegerstr." ptLine="163"/>
+    <stop id="070101005671" name="Berlin  Nieberstraße" ptLine="163"/>
+    <stop id="070101005672" name="S Schöneweide Sterndamm (Berlin)" ptLine="160"/>
+    <stop id="070101005672" name="S Schöneweide Sterndamm (Berlin)" ptLine="163"/>
+    <stop id="070101005673" name="S Schöneweide Sterndamm (Berlin)" ptLine="160"/>
+    <stop id="070101005674" name="Berlin  Pietschkerstr." ptLine="160"/>
+    <stop id="070101005675" name="Berlin  Sterndamm Königsheideweg" ptLine="160"/>
+    <stop id="070101005676" name="Berlin  Johannisthal Kirche" ptLine="160"/>
+    <stop id="070101005677" name="Berlin  Lindhorstweg" ptLine="160"/>
+    <stop id="070101005678" name="Berlin  Springbornstr." ptLine="160"/>
+    <stop id="070101005680" name="Berlin  Ginkgoweg" ptLine="160"/>
+    <stop id="070101005685" name="Berlin  Sterndamm Königsheideweg" ptLine="160"/>
+    <stop id="070101005686" name="Berlin  Pietschkerstr." ptLine="160"/>
+    <stop id="070101005687" name="S Schöneweide Sterndamm (Berlin)" ptLine="160"/>
+    <stop id="070101005687" name="S Schöneweide Sterndamm (Berlin)" ptLine="163"/>
+    <stop id="070101005688" name="Berlin  Nieberstraße" ptLine="163"/>
+    <stop id="070101005689" name="Berlin  Landfliegerstr." ptLine="163"/>
+    <stop id="070101005690" name="Berlin  Benno-König-Str." ptLine="163"/>
+    <stop id="070101005691" name="Berlin  Gerhard-Sedlmayr-Str." ptLine="163"/>
+    <stop id="070101005753" name="Berlin  Doku.-zentrum NS-Zwangsarbeit" ptLine="160"/>
+    <stop id="070101005774" name="Berlin  Lindhorstweg" ptLine="160"/>
+    <stop id="070101005775" name="Berlin  Johannisthal Kirche" ptLine="160"/>
+    <stop id="070101005877" name="Berlin  Ginkgoweg" ptLine="160"/>
+    <stop id="070101005969" name="S Schöneweide Sterndamm (Berlin)" ptLine="163"/>
+    <stop id="070101006605" name="Berlin  Pfarrwöhrde" ptLine="160"/>
+    <stop id="070101006605" name="Berlin  Pfarrwöhrde" ptLine="N60"/>
+    <stop id="070101006893" name="Berlin  Ottomar-Geschke-Str." ptLine="N64"/>
+    <stop id="070101006894" name="Berlin  Wassermannstr." ptLine="N64"/>
+    <stop id="070101006906" name="Berlin  Ottomar-Geschke-Str." ptLine="N64"/>
+    <stop id="070101006907" name="Berlin  Wassermannstr." ptLine="N64"/>
+    <stop id="070101006943" name="Berlin  Zinsgutstraße" ptLine="162"/>
+    <stop id="070101006943" name="Berlin  Zinsgutstraße" ptLine="164"/>
+    <stop id="070101006945" name="Berlin  Zinsgutstraße" ptLine="162"/>
+    <stop id="070101006945" name="Berlin  Zinsgutstraße" ptLine="164"/>
+    <stop id="070301009662" name="Berlin  Ottomar-Geschke-Str." ptLine="61"/>
+    <stop id="070301009662" name="Berlin  Ottomar-Geschke-Str." ptLine="63"/>
+    <stop id="070301009663" name="Berlin  Wassermannstr." ptLine="61"/>
+    <stop id="070301009663" name="Berlin  Wassermannstr." ptLine="63"/>
+    <stop id="070301009679" name="Berlin  Marktplatz Adlershof" ptLine="61"/>
+    <stop id="070301009679" name="Berlin  Marktplatz Adlershof" ptLine="63"/>
+    <stop id="070301009680" name="Berlin  Wassermannstr." ptLine="61"/>
+    <stop id="070301009680" name="Berlin  Wassermannstr." ptLine="63"/>
+    <stop id="070301009681" name="Berlin  Ottomar-Geschke-Str." ptLine="61"/>
+    <stop id="070301009681" name="Berlin  Ottomar-Geschke-Str." ptLine="63"/>
+    <ptLine id="165" trip_headsign="Berlin  Müggelschlößchenweg"/>
+    <ptLine id="165" trip_headsign="S Plänterwald"/>
+    <ptLine id="166" trip_headsign="Berlin  Weisestr."/>
+    <ptLine id="166" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="21" trip_headsign="Berlin  Betriebshof Lichtenberg"/>
+    <ptLine id="21" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="265" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="265" trip_headsign="U Stadtmitte [5]"/>
+    <ptLine id="37" trip_headsign="Berlin  Betriebshof Lichtenberg"/>
+    <ptLine id="37" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="372" trip_headsign="U Rudow"/>
+    <ptLine id="60" trip_headsign="Berlin  Betriebshof Schöneweide"/>
+    <ptLine id="60" trip_headsign="Johannisthal  Haeckelstr."/>
+    <ptLine id="67" trip_headsign="Berlin  Betriebshof Lichtenberg"/>
+    <ptLine id="67" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="M11" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="M11" trip_headsign="U Dahlem-Dorf"/>
+    <ptLine id="M17" trip_headsign="Berlin  Gehrenseestr."/>
+    <ptLine id="M17" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="S47" trip_headsign="S Schöneweide Bhf"/>
+    <ptLine id="S47" trip_headsign="S Spindlersfeld"/>
+    <ptLine id="X11" trip_headsign="S Schöneweide Sterndamm"/>
+    <ptLine id="X11" trip_headsign="U Krumme Lanke"/>
+</missingElements>

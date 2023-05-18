@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed May  1 01:28:14 2019 by Eclipse SUMO netconvert Version v1_2_0+0149-6b40db9d1b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="osmNetconvert.typ.xml,osmNetconvertUrbanDe.typ.xml,osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <railway.topology.output value="topology.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <log value="net.log"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1383533494" name="Büchnerweg" lane="-23913524#5_1" startPos="75.80" endPos="90.80" friendlyPos="true" lines="164 162"/>
+    <busStop id="-1383533578" name="Radickestraße/Nipkowstraße" lane="-137534616#0_1" startPos="26.31" endPos="41.31" friendlyPos="true" lines="164 162"/>
+    <busStop id="-1560223555" name="Am Studio/Köpenicker Straße" lane="-314415495#3_1" startPos="89.28" endPos="104.28" friendlyPos="true" lines="260"/>
+    <busStop id="-1560223790" name="Wilhelm-Ostwald-Straße" lane="-314415495#6_1" startPos="0.00" endPos="14.09" friendlyPos="true" lines="260"/>
+    <busStop id="-1906421953" name="S Adlershof" lane="-45875465#0_1" startPos="49.95" endPos="57.45" friendlyPos="true" lines="N65 N68 N60"/>
+    <busStop id="-385200818" name="Albert-Einstein-Straße" lane="-314415495#14_1" startPos="0.00" endPos="9.00" friendlyPos="true" lines="260"/>
+    <busStop id="-766875150" name="Marktplatz Adlershof" lane="-179699939#0_0" startPos="246.96" endPos="271.96" friendlyPos="true">
+        <access lane="-149611534#0_0" pos="213.80" length="123.24" friendlyPos="1"/>
+        <access lane="-23788323#1_0" pos="6.93" length="41.98" friendlyPos="1"/>
+        <access lane="149611534#0_0" pos="0.00" length="118.47" friendlyPos="1"/>
+        <access lane="23788323#1_0" pos="212.54" length="29.38" friendlyPos="1"/>
+        <access lane="579671878_0" pos="207.68" length="143.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-945142208" name="Hans-Schmidt-Straße" lane="-318210378#3_1" startPos="14.77" endPos="29.77" friendlyPos="true" lines="163"/>
+    <busStop id="1095078213" name="S Betriebsbahnhof Schöneweide" lane="431786577_0" startPos="1653.78" endPos="1853.78" friendlyPos="true" lines="S45 S8 S9 S46 S85"/>
+    <busStop id="1383533459" name="Abtstraße" lane="24152326#0_1" startPos="60.14" endPos="75.14" friendlyPos="true" lines="164 162"/>
+    <busStop id="1383533461" name="Adlergestell/Glienicker Weg" lane="318210360#0_1" startPos="60.37" endPos="75.37" friendlyPos="true" lines="163 N68"/>
+    <busStop id="1383533462" name="Adlergestell/Glienicker Weg" lane="204721579#2_1" startPos="90.15" endPos="105.15" friendlyPos="true" lines="163 N68"/>
+    <busStop id="1383533492" name="Büchnerweg" lane="23913524#5_1" startPos="38.06" endPos="53.06" friendlyPos="true" lines="164 162"/>
+    <busStop id="1383533575" name="Radickestraße/Anna-Seghers-Straße" lane="149611526#0_1" startPos="23.98" endPos="38.98" friendlyPos="true" lines="164 162"/>
+    <busStop id="1383533577" name="Radickestraße/Nipkowstraße" lane="137534616#0_1" startPos="34.88" endPos="49.88" friendlyPos="true" lines="164 162"/>
+    <busStop id="1383533597" name="S Adlershof" lane="152839426_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="N60 N65 N68"/>
+    <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße" lane="143308587#1_1" startPos="32.07" endPos="47.07" friendlyPos="true" lines="160 162 N60 164"/>
+    <busStop id="1656195133" name="S Adlershof" lane="206889086#1_1" startPos="21.84" endPos="29.34" friendlyPos="true" lines="162 163 N60 260 164"/>
+    <busStop id="1704693343" name="Karl-Ziegler-Straße" lane="158236729#0_0" startPos="0.00" endPos="9.73" friendlyPos="true" lines="61 63">
+        <access lane="142575685#0_0" pos="50.63" length="9.48" friendlyPos="1"/>
+        <access lane="142575685#1_0" pos="0.00" length="20.62" friendlyPos="1"/>
+        <access lane="142575686#1_0" pos="21.65" length="13.10" friendlyPos="1"/>
+        <access lane="569694705#0_0" pos="1.39" length="17.14" friendlyPos="1"/>
+        <access lane="569694705#2_0" pos="0.00" length="14.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693369" name="Karl-Ziegler-Straße" lane="158236384#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="61 63">
+        <access lane="142575685#0_0" pos="18.31" length="13.37" friendlyPos="1"/>
+        <access lane="142575686#2_0" pos="8.41" length="8.41" friendlyPos="1"/>
+        <access lane="142575686#3_0" pos="0.00" length="11.84" friendlyPos="1"/>
+        <access lane="397678498#1_0" pos="27.91" length="20.30" friendlyPos="1"/>
+        <access lane="397678504#2_0" pos="17.97" length="13.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693381" name="Magnusstraße" lane="220198810#0_0" startPos="6.09" endPos="31.09" friendlyPos="true" lines="61 63">
+        <access lane="143308542#5_0" pos="2.79" length="23.98" friendlyPos="1"/>
+        <access lane="143308542#6_0" pos="3.21" length="19.64" friendlyPos="1"/>
+        <access lane="143308546#13_0" pos="53.33" length="20.40" friendlyPos="1"/>
+        <access lane="143308546#14_0" pos="0.00" length="20.97" friendlyPos="1"/>
+        <access lane="81096589#0_0" pos="4.38" length="10.05" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693389" name="Magnusstraße" lane="220198808#0_0" startPos="15.48" endPos="38.00" friendlyPos="true" lines="61 63">
+        <access lane="143308542#6_0" pos="49.99" length="15.58" friendlyPos="1"/>
+        <access lane="143308542#7_0" pos="0.00" length="23.82" friendlyPos="1"/>
+        <access lane="143308546#13_0" pos="6.94" length="24.46" friendlyPos="1"/>
+        <access lane="81096580#0_0" pos="0.18" length="17.68" friendlyPos="1"/>
+        <access lane="81096580#2_0" pos="0.00" length="15.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693444" name="S Adlershof" lane="179699938#2_0" startPos="33.49" endPos="49.70" friendlyPos="true" lines="61 63">
+        <access lane="220194458#3_0" pos="1.03" length="9.34" friendlyPos="1"/>
+        <access lane="458921214_0" pos="2.12" length="8.60" friendlyPos="1"/>
+        <access lane="540221756_0" pos="0.59" length="7.78" friendlyPos="1"/>
+        <access lane="82710639#1_0" pos="0.20" length="10.66" friendlyPos="1"/>
+        <access lane="82710639#2_0" pos="0.00" length="10.22" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693451" name="Walther-Nernst-Straße" lane="206889079#9_0" startPos="34.18" endPos="59.18" friendlyPos="true" lines="61 63">
+        <access lane="142575735#0_0" pos="6.74" length="11.39" friendlyPos="1"/>
+        <access lane="143308546#2_0" pos="14.44" length="23.50" friendlyPos="1"/>
+        <access lane="143308546#3_0" pos="3.97" length="19.13" friendlyPos="1"/>
+        <access lane="143308546#4_0" pos="0.00" length="24.80" friendlyPos="1"/>
+        <access lane="55939165#1_0" pos="14.41" length="18.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1704693457" name="Walther-Nernst-Straße" lane="220198808#3_0" startPos="94.72" endPos="114.69" friendlyPos="true" lines="61 63">
+        <access lane="143308542#16_0" pos="18.76" length="20.26" friendlyPos="1"/>
+        <access lane="81096606#0_0" pos="6.90" length="13.39" friendlyPos="1"/>
+        <access lane="81096606#2_0" pos="0.10" length="13.32" friendlyPos="1"/>
+        <access lane="81096606#3_0" pos="0.20" length="11.57" friendlyPos="1"/>
+        <access lane="81096606#4_0" pos="0.00" length="11.31" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1756300980" name="S Adlershof" lane="20553068#2_1" startPos="69.66" endPos="77.16" friendlyPos="true"/>
+    <busStop id="1862990707" name="Otto-Franke-Straße" lane="153021549#1_1" startPos="31.80" endPos="46.80" friendlyPos="true" lines="163 N68"/>
+    <busStop id="2050022025" name="Hermann-Dorner-Allee" lane="70130339#0_1" startPos="86.28" endPos="101.28" friendlyPos="true" lines="163"/>
+    <busStop id="2050022029" name="Hermann-Dorner-Allee" lane="231626692#1_1" startPos="168.37" endPos="183.37" friendlyPos="true" lines="163"/>
+    <busStop id="301331956" name="Magnusstraße" lane="143308546#13_1" startPos="39.41" endPos="54.41" friendlyPos="true" lines="162 N60 164"/>
+    <busStop id="30499115" name="S Adlershof" lane="4782367_0" startPos="0.00" endPos="182.81" friendlyPos="true" lines="S45 S8 S9 S46 S85">
+        <access lane="540388566_0" pos="0.10" length="39.37" friendlyPos="1"/>
+        <access lane="540388567#0_0" pos="0.00" length="34.25" friendlyPos="1"/>
+        <access lane="540388567#1_0" pos="0.00" length="37.11" friendlyPos="1"/>
+        <access lane="72230304#1_0" pos="81.62" length="42.65" friendlyPos="1"/>
+        <access lane="85088365_0" pos="10.28" length="39.96" friendlyPos="1"/>
+    </busStop>
+    <busStop id="30499135" name="S Betriebsbahnhof Schöneweide" lane="431786563_0" startPos="701.15" endPos="901.15" friendlyPos="true" lines="S45 S8 S9 S46 S85"/>
+    <busStop id="306982602" name="Magnusstraße" lane="143308542#6_1" startPos="14.23" endPos="29.23" friendlyPos="true" lines="162 164 N60"/>
+    <busStop id="3508654675" name="S Adlershof" lane="22917995_0" startPos="0.00" endPos="55.51" friendlyPos="true" lines="S45 S8 S9 S46 S85">
+        <access lane="140162593_0" pos="0.00" length="15.78" friendlyPos="1"/>
+        <access lane="206889086#1_0" pos="11.42" length="10.31" friendlyPos="1"/>
+        <access lane="218797686#0_0" pos="2.35" length="15.88" friendlyPos="1"/>
+        <access lane="540221753_0" pos="0.20" length="16.17" friendlyPos="1"/>
+        <access lane="540388579#1_0" pos="9.35" length="10.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3812676495" name="Otto-Franke-Straße" lane="153021553#1_1" startPos="32.30" endPos="47.30" friendlyPos="true" lines="163 N68"/>
+    <busStop id="385200819" name="Albert-Einstein-Straße" lane="314415495#13_1" startPos="3.95" endPos="18.95" friendlyPos="true" lines="260"/>
+    <busStop id="3893875078" name="Otto-Franke-Straße" lane="204721578#0_1" startPos="44.07" endPos="59.07" friendlyPos="true"/>
+    <busStop id="464396487" name="Rudower Chaussee/Wegedornstraße" lane="143308542#1_1" startPos="29.43" endPos="44.43" friendlyPos="true" lines="162 164 N60"/>
+    <busStop id="464396566" name="Walther-Nernst-Straße" lane="143308546#2_1" startPos="2.17" endPos="17.17" friendlyPos="true" lines="162 N60 164"/>
+    <busStop id="464396589" name="Walther-Nernst-Straße" lane="143308542#16_1" startPos="1.10" endPos="16.10" friendlyPos="true" lines="162 164 N60"/>
+    <busStop id="5315085711" name="S Adlershof" lane="458921214_1" startPos="20.57" endPos="32.26" friendlyPos="true" lines="162 163 260 164 N60"/>
+    <busStop id="583899039" name="S Adlershof" lane="218797686#0_1" startPos="0.00" endPos="12.50" friendlyPos="true" lines="61 63"/>
+    <busStop id="664208807" name="Wilhelm-Ostwald-Straße" lane="314415495#6_1" startPos="42.35" endPos="57.35" friendlyPos="true" lines="260"/>
+    <busStop id="671564316" name="Rudower Chaussee/Wegedornstraße" lane="143308532#2_1" startPos="0.00" endPos="13.45" friendlyPos="true" lines="160"/>
+    <busStop id="766875150" name="Marktplatz Adlershof" lane="179699939#0_0" startPos="165.42" endPos="190.42" friendlyPos="true">
+        <access lane="-149611534#0_0" pos="213.80" length="123.24" friendlyPos="1"/>
+        <access lane="-23788323#1_0" pos="6.93" length="41.98" friendlyPos="1"/>
+        <access lane="149611534#0_0" pos="0.00" length="118.47" friendlyPos="1"/>
+        <access lane="23788323#1_0" pos="212.54" length="29.38" friendlyPos="1"/>
+        <access lane="579671878_0" pos="207.68" length="143.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="837696418" name="James-Franck-Straße" lane="143308532#5_1" startPos="141.28" endPos="156.28" friendlyPos="true" lines="160"/>
+    <busStop id="837696524" name="James-Franck-Straße" lane="46039050#1_1" startPos="211.35" endPos="226.35" friendlyPos="true" lines="160"/>
+    <busStop id="945142098" name="Hans-Schmidt-Straße" lane="318210378#4_1" startPos="14.55" endPos="29.55" friendlyPos="true" lines="163"/>
+    <busStop id="945142241" name="Am Studio/Köpenicker Straße" lane="314415495#1_1" startPos="29.38" endPos="44.38" friendlyPos="true" lines="260"/>
+</additional>

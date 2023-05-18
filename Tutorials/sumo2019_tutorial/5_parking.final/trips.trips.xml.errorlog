@@ -1,0 +1,15 @@
+Warning: Vehicle '2_bus_162:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '4_bus_163:1' is not allowed to depart on any lane of its first edge.
+Warning: Vehicle '5_bus_163:2' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '2_bus_162:1' is not allowed on destination edge '458921214'.
+Warning: busStop '464396589' for vehicle '2_bus_162:1' on lane '143308542#16_1' is not downstream the current route.
+Warning: Vehicle '2_bus_162:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '5_bus_163:2' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '20_bus_260:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '23_bus_164:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '23_bus_164:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '20_bus_260:1' is not allowed on destination edge '458921214'.
+Warning: busStop '385200819' for vehicle '20_bus_260:1' on lane '314415495#13_1' is not downstream the current route.
+Warning: Vehicle '20_bus_260:1' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '34_bus_162:3' is not allowed to stop on lane '458921214_1'.
+Warning: Vehicle '34_bus_162:3' is not allowed to stop on lane '458921214_1'.

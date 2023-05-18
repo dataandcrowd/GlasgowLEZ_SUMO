@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2019-05-03 12:55:15.735000 by $Id$
+  options: -n osm.net.xml -e 5400 -p 600 <doubleminus>random-begin <doubleminus>seed 42 <doubleminus>ptstops osm_stops.add.xml <doubleminus>ptlines osm_ptlines.xml -o osm_pt.rou.xml <doubleminus>ignore-errors <doubleminus>vtype-prefix pt_
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_160:0" edges="46039050#1 46039050#4 46039050#5 46039050#6 143308587#0 143308587#1" >
+        <stop busStop="837696524" duration="30.00" until="57.0"/> <!-- James-Franck-Straße -->
+        <stop busStop="1560223236" duration="30.00" until="133.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_162:1" edges="143308542#1 143308542#3 143308542#4 143308542#5 143308542#6 143308542#7 143308542#8 143308542#9 143308542#10 143308542#11 143308542#12 143308542#13 143308542#14 143308542#15" >
+        <stop busStop="464396487" duration="30.00" until="42.0"/> <!-- None -->
+        <stop busStop="306982602" duration="30.00" until="97.0"/> <!-- Magnusstraße -->
+    </route>
+    <route id="pt_bus_163:0" edges="204721579#2 204721579#3 204721579#4 204721579#6 204721579#7 204721579#8 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 40191606#0 40191606#2 40191606#3 414563781 318210357#0 206889086#1" >
+        <stop busStop="1383533462" duration="30.00" until="49.0"/> <!-- None -->
+        <stop busStop="1862990707" duration="30.00" until="135.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1656195133" duration="30.00" until="229.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_bus_162:0" edges="206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 143308555#1 143308555#2 143308555#3 143308546#1 143308546#2 143308546#3 143308546#4 143308546#5 143308546#6 143308546#7 143308546#8 143308546#9 143308546#10 143308546#11 143308546#12 143308546#13 143308546#14 143308546#15 143308546#16 143308546#17 143308546#18 143308546#19 143308546#20 143308546#21 143308546#23 143308546#24 143308546#25 143308546#26 143308587#0 143308587#1" >
+        <stop busStop="1656195133" duration="30.00" until="39.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="30.00" until="162.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="30.00" until="255.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="30.00" until="327.0"/> <!-- None -->
+    </route>
+    <route id="pt_light_rail_S45:0" edges="22917995 431786577" >
+        <stop busStop="3508654675" duration="30.00" until="32.0"/> <!-- S Adlershof -->
+        <stop busStop="1095078213" duration="30.00" until="149.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+    </route>
+    <route id="pt_bus_260:0" edges="206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 -318210361#3 -318210361#0 -314415495#20 -314415495#18 -314415495#17 -314415495#15 -314415495#14 -314415495#13 -314415495#12 -314415495#11 -314415495#10 -314415495#9 -314415495#8 -314415495#7 -314415495#6 -314415495#5 -314415495#4 -314415495#3" >
+        <stop busStop="1656195133" duration="30.00" until="39.0"/> <!-- S Adlershof -->
+        <stop busStop="-385200818" duration="30.00" until="170.0"/> <!-- Albert-Einstein-Straße -->
+        <stop busStop="-1560223790" duration="30.00" until="242.0"/> <!-- Wilhelm-Ostwald-Straße -->
+        <stop busStop="-1560223555" duration="30.00" until="298.0"/> <!-- None -->
+    </route>
+    <route id="pt_light_rail_S45:1" edges="431786563 4782366 4782367" >
+        <stop busStop="30499135" duration="30.00" until="78.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+        <stop busStop="30499115" duration="30.00" until="191.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_bus_260:1" edges="314415495#1 314415495#3 314415495#4 314415495#5 314415495#6 314415495#7 314415495#8 314415495#9 314415495#10 314415495#11 314415495#12" >
+        <stop busStop="945142241" duration="30.00" until="41.0"/> <!-- None -->
+        <stop busStop="664208807" duration="30.00" until="97.0"/> <!-- Wilhelm-Ostwald-Straße -->
+    </route>
+    <route id="pt_bus_163:2" edges="70130339#0 70130339#1 70130339#2 70130339#3 118262353#2 -38915290 -318210378#5 -318210378#4 -318210378#3 -318210378#2 -318210378#0 -318210376 -318210377#1 -318210377#0 -31050360#2 -31050360#1 -31050360#0 143308552#1 143308549#1 143308549#2 52036180#1 52036180#2 52036180#4 72230304#1 461514282#0 461514282#1 204721578#0 204721578#1 153021553#1 318210353 318210351 207086005 318210360#0" >
+        <stop busStop="2050022025" duration="30.00" until="47.0"/> <!-- Hermann-Dorner-Allee -->
+        <stop busStop="-945142208" duration="30.00" until="128.0"/> <!-- Hans-Schmidt-Straße -->
+        <stop busStop="3812676495" duration="30.00" until="382.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1383533461" duration="30.00" until="443.0"/> <!-- None -->
+    </route>
+    <route id="pt_tram_61:1" edges="179699938#2 179699938#3 179699938#4 206889079#0 206889079#3 206889079#6 206889079#7 206889079#9 206889079#10 206889079#11 206889079#12 220198810#0 220198810#1 220198810#2 220198810#3 220198810#4 220198810#5 158236384#0" >
+        <stop busStop="1704693444" duration="30.00" until="40.0"/> <!-- S Adlershof -->
+        <stop busStop="1704693451" duration="30.00" until="209.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="1704693381" duration="30.00" until="309.0"/> <!-- Magnusstraße -->
+        <stop busStop="1704693369" duration="30.00" until="383.0"/> <!-- Karl-Ziegler-Straße -->
+    </route>
+    <route id="pt_tram_61:0" edges="158236729#0 158236729#1 158236729#2 158236729#3 158236729#4 158236729#5 220198808#0 220198808#1 220198808#2 220198808#3 220198808#4 220198808#6 220198808#9 158236381 220194458#0 220194458#3 458921214 218797686#0 386046454#1 179699937 -179699935 -179699939#0" >
+        <stop busStop="1704693343" duration="30.00" until="32.0"/> <!-- Karl-Ziegler-Straße -->
+        <stop busStop="1704693389" duration="30.00" until="107.0"/> <!-- Magnusstraße -->
+        <stop busStop="1704693457" duration="30.00" until="189.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="583899039" duration="30.00" until="315.0"/> <!-- S Adlershof -->
+        <stop busStop="-766875150" duration="30.00" until="386.0"/> <!-- Marktplatz Adlershof -->
+    </route>
+    <route id="pt_light_rail_S8:1" edges="22917995 431786577" >
+        <stop busStop="3508654675" duration="30.00" until="32.0"/> <!-- S Adlershof -->
+        <stop busStop="1095078213" duration="30.00" until="149.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+    </route>
+    <route id="pt_tram_63:1" edges="179699938#2 179699938#3 179699938#4 206889079#0 206889079#3 206889079#6 206889079#7 206889079#9 206889079#10 206889079#11 206889079#12 220198810#0 220198810#1 220198810#2 220198810#3 220198810#4 220198810#5 158236384#0" >
+        <stop busStop="1704693444" duration="30.00" until="40.0"/> <!-- S Adlershof -->
+        <stop busStop="1704693451" duration="30.00" until="185.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="1704693381" duration="30.00" until="284.0"/> <!-- Magnusstraße -->
+        <stop busStop="1704693369" duration="30.00" until="358.0"/> <!-- Karl-Ziegler-Straße -->
+    </route>
+    <route id="pt_light_rail_S8:0" edges="431786563 4782366 4782367" >
+        <stop busStop="30499135" duration="30.00" until="78.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+        <stop busStop="30499115" duration="30.00" until="191.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_light_rail_S9:0" edges="22917995 431786577" >
+        <stop busStop="3508654675" duration="30.00" until="32.0"/> <!-- S Adlershof -->
+        <stop busStop="1095078213" duration="30.00" until="151.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+    </route>
+    <route id="pt_bus_160:1" edges="143308532#2 143308532#5" >
+        <stop busStop="671564316" duration="30.00" until="34.0"/> <!-- None -->
+        <stop busStop="837696418" duration="30.00" until="96.0"/> <!-- James-Franck-Straße -->
+    </route>
+    <route id="pt_tram_63:0" edges="158236729#0 158236729#1 158236729#2 158236729#3 158236729#4 158236729#5 220198808#0 220198808#1 220198808#2 220198808#3 220198808#4 220198808#6 220198808#9 158236381 220194458#0 220194458#3 458921214 218797686#0 386046454#1 179699937 -179699935 -179699939#0" >
+        <stop busStop="1704693343" duration="30.00" until="32.0"/> <!-- Karl-Ziegler-Straße -->
+        <stop busStop="1704693389" duration="30.00" until="110.0"/> <!-- Magnusstraße -->
+        <stop busStop="1704693457" duration="30.00" until="194.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="583899039" duration="30.00" until="367.0"/> <!-- S Adlershof -->
+        <stop busStop="-766875150" duration="30.00" until="445.0"/> <!-- Marktplatz Adlershof -->
+    </route>
+    <route id="pt_light_rail_S9:1" edges="431786563 4782366 4782367" >
+        <stop busStop="30499135" duration="30.00" until="78.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+        <stop busStop="30499115" duration="30.00" until="191.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_light_rail_S46:0" edges="22917995 431786577" >
+        <stop busStop="3508654675" duration="30.00" until="32.0"/> <!-- S Adlershof -->
+        <stop busStop="1095078213" duration="30.00" until="153.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+    </route>
+    <route id="pt_light_rail_S46:1" edges="431786563 4782366 4782367" >
+        <stop busStop="30499135" duration="30.00" until="74.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+        <stop busStop="30499115" duration="30.00" until="187.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_bus_164:0" edges="-23913524#5 -23913524#3 -23913524#2 -23913524#1 -23913524#0 137534616#0 137534616#1 137534616#2 137534616#3 137534616#4 166142951#0 166142951#1 149611526#0 40191606#0 40191606#2 40191606#3 414563781 318210357#0 206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 143308555#1 143308555#2 143308555#3 143308546#1 143308546#2 143308546#3 143308546#4 143308546#5 143308546#6 143308546#7 143308546#8 143308546#9 143308546#10 143308546#11 143308546#12 143308546#13 143308546#14 143308546#15 143308546#16 143308546#17 143308546#18 143308546#19 143308546#20 143308546#21 143308546#23 143308546#24 143308546#25 143308546#26 143308587#0 143308587#1" >
+        <stop busStop="-1383533494" duration="30.00" until="47.0"/> <!-- Büchnerweg -->
+        <stop busStop="1383533577" duration="30.00" until="114.0"/> <!-- None -->
+        <stop busStop="1383533575" duration="30.00" until="185.0"/> <!-- None -->
+        <stop busStop="1656195133" duration="30.00" until="269.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="30.00" until="399.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="30.00" until="491.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="30.00" until="569.0"/> <!-- None -->
+    </route>
+    <route id="pt_light_rail_S85:0" edges="22917995 431786577" >
+        <stop busStop="3508654675" duration="30.00" until="32.0"/> <!-- S Adlershof -->
+        <stop busStop="1095078213" duration="30.00" until="155.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+    </route>
+    <route id="pt_light_rail_S85:1" edges="431786563 4782366 4782367" >
+        <stop busStop="30499135" duration="30.00" until="87.0"/> <!-- S Betriebsbahnhof Schöneweide -->
+        <stop busStop="30499115" duration="30.00" until="201.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_bus_164:1" edges="143308542#1 143308542#3 143308542#4 143308542#5 143308542#6 143308542#7 143308542#8 143308542#9 143308542#10 143308542#11 143308542#12 143308542#13 143308542#14 143308542#15 143308542#16 143308542#17 143308552#1 143308549#1 143308549#2 52036180#1 52036180#2 52036180#4 -45875465#0 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -137534616#4 -137534616#3 -137534616#2 -137534616#1 -137534616#0 23913524#0 23913524#1 23913524#2 23913524#3 23913524#5" >
+        <stop busStop="464396487" duration="30.00" until="41.0"/> <!-- None -->
+        <stop busStop="306982602" duration="30.00" until="105.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="30.00" until="197.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="1383533459" duration="30.00" until="346.0"/> <!-- Abtstraße -->
+        <stop busStop="-1383533578" duration="30.00" until="435.0"/> <!-- None -->
+        <stop busStop="1383533492" duration="30.00" until="500.0"/> <!-- Büchnerweg -->
+    </route>
+    <route id="pt_bus_163:3" edges="204721579#2 204721579#3 204721579#4 204721579#6 204721579#7 204721579#8 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 40191606#0 40191606#2 40191606#3 414563781 318210357#0 206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 143308555#1 143308555#2 143308555#3 31050360#0 31050360#1 31050360#2 318210377#0 318210377#1 318210376 318210378#0 318210378#2 318210378#3 318210378#4 318210378#5 38915290 8025704#0 231626692#0 231626692#1" >
+        <stop busStop="1383533462" duration="30.00" until="48.0"/> <!-- None -->
+        <stop busStop="1862990707" duration="30.00" until="114.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1656195133" duration="30.00" until="213.0"/> <!-- S Adlershof -->
+        <stop busStop="945142098" duration="30.00" until="353.0"/> <!-- Hans-Schmidt-Straße -->
+        <stop busStop="2050022029" duration="30.00" until="431.0"/> <!-- Hermann-Dorner-Allee -->
+    </route>
+    <route id="pt_bus_162:3" edges="143308542#1 143308542#3 143308542#4 143308542#5 143308542#6 143308542#7 143308542#8 143308542#9 143308542#10 143308542#11 143308542#12 143308542#13 143308542#14 143308542#15 143308542#16 143308542#17 143308552#1 143308549#1 143308549#2 52036180#1 52036180#2 52036180#4 -45875465#0 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -137534616#4 -137534616#3 -137534616#2 -137534616#1 -137534616#0 23913524#0 23913524#1 23913524#2 23913524#3 23913524#5" >
+        <stop busStop="464396487" duration="30.00" until="41.0"/> <!-- None -->
+        <stop busStop="306982602" duration="30.00" until="113.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="30.00" until="183.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="1383533459" duration="30.00" until="433.0"/> <!-- Abtstraße -->
+        <stop busStop="-1383533578" duration="30.00" until="524.0"/> <!-- None -->
+        <stop busStop="1383533492" duration="30.00" until="586.0"/> <!-- Büchnerweg -->
+    </route>
+    <route id="pt_bus_162:2" edges="-23913524#5 -23913524#3 -23913524#2 -23913524#1 -23913524#0 137534616#0 137534616#1 137534616#2 137534616#3 137534616#4 166142951#0 166142951#1 149611526#0 40191606#0 40191606#2 40191606#3 414563781 318210357#0 206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 143308555#1 143308555#2 143308555#3 143308546#1 143308546#2 143308546#3 143308546#4 143308546#5 143308546#6 143308546#7 143308546#8 143308546#9 143308546#10 143308546#11 143308546#12 143308546#13 143308546#14 143308546#15 143308546#16 143308546#17 143308546#18 143308546#19 143308546#20 143308546#21 143308546#23 143308546#24 143308546#25 143308546#26 143308587#0 143308587#1" >
+        <stop busStop="-1383533494" duration="30.00" until="48.0"/> <!-- Büchnerweg -->
+        <stop busStop="1383533577" duration="30.00" until="114.0"/> <!-- None -->
+        <stop busStop="1383533575" duration="30.00" until="186.0"/> <!-- None -->
+        <stop busStop="1656195133" duration="30.00" until="267.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="30.00" until="449.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="30.00" until="544.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="30.00" until="613.0"/> <!-- None -->
+    </route>
+    <flow id="pt_bus_160:0" type="pt_bus" route="pt_bus_160:0" begin="3.0" end="5403.0" period="600" line="160:0" >
+        <param key="name" value="Buslinie 160: Hasselwerderstraße =&gt; Siriusstraße"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_162:1" type="pt_bus" route="pt_bus_162:1" begin="15.0" end="5415.0" period="600" line="162:1" >
+        <param key="name" value="Buslinie 162: U Rudow =&gt; S Adlershof"/>
+        <param key="completeness" value="0.36"/>
+    </flow>
+    <flow id="pt_bus_163:0" type="pt_bus" route="pt_bus_163:0" begin="17.0" end="5417.0" period="600" line="163:0" >
+        <param key="name" value="Buslinie 163: S Flughafen Berlin-Schönefeld =&gt; S Adlershof"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_162:0" type="pt_bus" route="pt_bus_162:0" begin="15.0" end="5415.0" period="600" line="162:0" >
+        <param key="name" value="Buslinie 162: S Adlershof =&gt; U Rudow"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_light_rail_S45:0" type="pt_light_rail" route="pt_light_rail_S45:0" begin="204.0" end="5604.0" period="1200" line="S45:0" >
+        <param key="name" value="S-Bahnlinie S45: S Flughafen Berlin-Schönefeld =&gt; S Südkreuz"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_260:0" type="pt_bus" route="pt_bus_260:0" begin="93.0" end="5493.0" period="600" line="260:0" >
+        <param key="name" value="Buslinie 260: S Adlershof =&gt; U Rudow"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_light_rail_S45:1" type="pt_light_rail" route="pt_light_rail_S45:1" begin="227.0" end="5627.0" period="1200" line="S45:1" >
+        <param key="name" value="S-Bahnlinie S45: S Südkreuz =&gt; S Flughafen Berlin-Schönefeld"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_260:1" type="pt_bus" route="pt_bus_260:1" begin="353.0" end="5753.0" period="600" line="260:1" >
+        <param key="name" value="Buslinie 260: U Rudow =&gt; S Adlershof"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_bus_163:2" type="pt_bus" route="pt_bus_163:2" begin="55.0" end="5455.0" period="600" line="163:2" >
+        <param key="name" value="Buslinie 163: S Schöneweide/Sterndamm =&gt; S Flughafen Berlin-Schönefeld"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_tram_61:1" type="pt_tram" route="pt_tram_61:1" begin="133.0" end="5533.0" period="1200" line="61:1" >
+        <param key="name" value="Straßenbahnlinie 61: Rahnsdorf/Waldschänke =&gt; Adlershof, Karl-Ziegler-Straße"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_tram_61:0" type="pt_tram" route="pt_tram_61:0" begin="132.0" end="5532.0" period="1200" line="61:0" >
+        <param key="name" value="Straßenbahnlinie 61: Adlershof, Karl-Ziegler-Straße =&gt; Rahnsdorf/Waldschänke"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_light_rail_S8:1" type="pt_light_rail" route="pt_light_rail_S8:1" begin="383.0" end="5783.0" period="1200" line="S8:1" >
+        <param key="name" value="S-Bahnlinie S8: S Zeuthen =&gt; S Birkenwerder"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_tram_63:1" type="pt_tram" route="pt_tram_63:1" begin="201.0" end="5601.0" period="1200" line="63:1" >
+        <param key="name" value="Straßenbahnlinie 63: Rahnsdorfer Straße =&gt; Karl-Ziegler-Straße"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_light_rail_S8:0" type="pt_light_rail" route="pt_light_rail_S8:0" begin="362.0" end="5762.0" period="1200" line="S8:0" >
+        <param key="name" value="S-Bahnlinie S8: S Birkenwerder =&gt; S Zeuthen"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_light_rail_S9:0" type="pt_light_rail" route="pt_light_rail_S9:0" begin="430.0" end="5830.0" period="1200" line="S9:0" >
+        <param key="name" value="S-Bahnlinie S9: S Flughafen Schönefeld =&gt; S Rathaus Spandau"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_160:1" type="pt_bus" route="pt_bus_160:1" begin="508.0" end="5908.0" period="600" line="160:1" >
+        <param key="name" value="Buslinie 160: Siriusstraße =&gt; Hasselwerderstraße"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_tram_63:0" type="pt_tram" route="pt_tram_63:0" begin="170.0" end="5570.0" period="1200" line="63:0" >
+        <param key="name" value="Straßenbahnlinie 63: Karl-Ziegler-Straße =&gt; Rahnsdorfer Straße"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_light_rail_S9:1" type="pt_light_rail" route="pt_light_rail_S9:1" begin="418.0" end="5818.0" period="1200" line="S9:1" >
+        <param key="name" value="S-Bahnlinie S9: S Rathaus Spandau =&gt; S Flughafen Schönefeld"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_light_rail_S46:0" type="pt_light_rail" route="pt_light_rail_S46:0" begin="477.0" end="5877.0" period="1200" line="S46:0" >
+        <param key="name" value="S-Bahnlinie S46: S Königs Wusterhausen =&gt; Westend"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_light_rail_S46:1" type="pt_light_rail" route="pt_light_rail_S46:1" begin="441.0" end="5841.0" period="1200" line="S46:1" >
+        <param key="name" value="S-Bahnlinie S46: Westend =&gt; S Königs Wusterhausen"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_164:0" type="pt_bus" route="pt_bus_164:0" begin="131.0" end="5531.0" period="600" line="164:0" >
+        <param key="name" value="Buslinie 164: S Köpenick =&gt; Flughafen Schönefeld (Airport)"/>
+        <param key="completeness" value="0.26"/>
+    </flow>
+    <flow id="pt_light_rail_S85:0" type="pt_light_rail" route="pt_light_rail_S85:0" begin="524.0" end="5924.0" period="1200" line="S85:0" >
+        <param key="name" value="S-Bahnlinie S85: Grünau =&gt; Pankow"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_light_rail_S85:1" type="pt_light_rail" route="pt_light_rail_S85:1" begin="484.0" end="5884.0" period="1200" line="S85:1" >
+        <param key="name" value="S-Bahnlinie S85: Pankow =&gt; Grünau"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_164:1" type="pt_bus" route="pt_bus_164:1" begin="389.0" end="5789.0" period="600" line="164:1" >
+        <param key="name" value="Buslinie 164: Flughafen Schönefeld (Airport) =&gt; S Köpenick"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_163:3" type="pt_bus" route="pt_bus_163:3" begin="485.0" end="5885.0" period="600" line="163:3" >
+        <param key="name" value="Buslinie 163: S Flughafen Berlin-Schönefeld =&gt; S Schöneweide/Sterndamm"/>
+        <param key="completeness" value="0.19"/>
+    </flow>
+    <flow id="pt_bus_162:3" type="pt_bus" route="pt_bus_162:3" begin="583.0" end="5983.0" period="600" line="162:3" >
+        <param key="name" value="Buslinie 162: U Rudow =&gt; Schloßplatz Köpenick"/>
+        <param key="completeness" value="0.35"/>
+    </flow>
+    <flow id="pt_bus_162:2" type="pt_bus" route="pt_bus_162:2" begin="574.0" end="5974.0" period="600" line="162:2" >
+        <param key="name" value="Buslinie 162: Schloßplatz Köpenick=&gt; U Rudow"/>
+        <param key="completeness" value="0.32"/>
+    </flow>
+</routes>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Sep 28 20:45:00 2020 by Eclipse SUMO sumo Version v1_7_0+0314-5b825ea2c9
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="taxi2.rou.xml,persons_taxi_ptStops.rou.xml"/>
+        <additional-files value="connected_stops.add.xml"/>
+    </input>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.adaptation-steps value="18"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="taxi.view.xml"/>
+    </gui_only>
+    <statistic-output value="statistics2.xml"/>
+    <tripinfo-output value="tripinfos2.xml"/>
+    <tripinfo-output.write-unfinished value="true"/>
+
+</configuration>

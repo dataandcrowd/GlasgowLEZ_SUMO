@@ -1,0 +1,48 @@
+Loading net-file from 'osm.net.xml'... done (545ms).
+Loading additional-files from 'osm.poly.xml'... done (90ms).
+Loading additional-files from 'osm_stops.add.xml'... done (7ms).
+Loading done.
+Simulation version v1_2_0+0252-83989c20697 started with time: 0.00
+Warning: Vehicle 'veh961' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=2559.00.
+Warning: Person 'ped2404' aborted waiting for 63:1 at busStop '1704693381'.
+Warning: Person 'ped3129' aborted waiting for 163:3 at busStop '1656195133'.
+Warning: Person 'ped2764' aborted waiting for 162:0 at busStop '1560223236'.
+Warning: Person 'ped2871' aborted waiting for 162:0 at busStop '301331956'.
+Simulation ended at time: 5969.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 26808ms
+ Real time factor: 222.657
+ UPS: 9947.851388
+Vehicles: 
+ Inserted: 1357
+ Running: 0
+ Waiting: 0
+Persons: 
+ Inserted: 3472
+ Running: 0
+Statistics (avg):
+ RouteLength: 1468.95
+ Duration: 196.52
+ WaitingTime: 30.95
+ TimeLoss: 67.59
+ DepartDelay: -0.25
+Pedestrian Statistics (avg of 5210 walks):
+ RouteLength: 495.80
+ Duration: 425.19
+ TimeLoss: 65.22
+Ride Statistics (avg of 1776 rides):
+ WaitingTime: 163.65
+ RouteLength: 841.08
+ Duration: 164.97
+ Bus: 1549
+ Train: 222
+ Bike: 0
+ Aborted: 5
+
+DijkstraRouter answered 136021 queries and explored 12.71 edges on average.
+DijkstraRouter spent 568ms answering queries (0.00ms on average).
+DijkstraRouter answered 3472 queries and explored 8468.50 edges on average.
+DijkstraRouter spent 7505ms answering queries (2.16ms on average).
+DijkstraRouter answered 1237 queries and explored 484.97 edges on average.
+DijkstraRouter spent 577ms answering queries (0.47ms on average).

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03.05.2019 14:14:41 by Eclipse SUMO netedit Version v1_2_0+0228-3a8af96409c
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final\parking.add"/>
+        <route-files value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final\custom.rou.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <parkingArea id="parkingArea_143308587#1_1_0" lane="143308587#1_1" roadsideCapacity="4" onRoad="1" startPos="15" endPos="-15"/>
+</additional>

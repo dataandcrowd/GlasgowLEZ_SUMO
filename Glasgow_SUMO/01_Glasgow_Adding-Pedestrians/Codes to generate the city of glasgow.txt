@@ -1,0 +1,18 @@
+netconvert --osm-files map.osm -o test.net.xml -t osmNetconvert.typ.xml --xml-validation never
+
+polyconvert --net-file test.net.xml --osm-files --osm.sidewalks map.osm --type-file typemap.xml -o map.poly.xml --xml-validation never
+
+python randomTrips.py -n test.net.xml -r map.rou.xml -e 1000 -l --validate
+
+Importing additional polygons (typemap.xmlhttps://sumo.dlr.de/wiki/Networks/Import/OpenStreetMap)
+
+An example configuration file can be found in the following Github link: (https://github.com/eclipse/sumo/blob/main/tests/complex/tutorial/hello/data/hello.sumocfg)
+
+
+Youtube URL: https://www.youtube.com/watch?v=NOPn9sE0AdY
+
+
+
+## New
+Adil Alsuhaim's Youtube about trips:
+https://www.youtube.com/watch?v=yl9yLch9pwU

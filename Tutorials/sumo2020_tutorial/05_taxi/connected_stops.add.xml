@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Oct  8 11:05:12 2020 by Eclipse SUMO netconvert Version v1_7_0+0548-71620f7ca0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="../03_netedit.final/osm.net.xml"/>
+        <ptstop-files value="../03_netedit.final/osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <output-file value="net.net.xml"/>
+        <output.street-names value="true"/>
+        <ptstop-output value="stops.add.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <edge_removal>
+        <remove-edges.by-vclass value="tram,rail,rail_urban,rail_fast,rail_electric"/>
+    </edge_removal>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1094134880" name="Johannes-Sasse-Ring" lane="-141968799_1" startPos="400.32" endPos="415.32" friendlyPos="true"/>
+    <busStop id="-1383533459" name="Abtstraße" lane="-24152326#0_0" startPos="3.59" endPos="18.59" friendlyPos="true"/>
+    <busStop id="-1383533492" name="Büchnerweg" lane="-23913524#2_1" startPos="58.09" endPos="73.09" friendlyPos="true"/>
+    <busStop id="-1383533494" name="Büchnerweg" lane="-23913524#2_1" startPos="75.79" endPos="90.79" friendlyPos="true"/>
+    <busStop id="-1383533575" lane="-149611526#0_1" startPos="58.29" endPos="73.29" friendlyPos="true"/>
+    <busStop id="-1383533577" lane="-137534616#0_1" startPos="4.34" endPos="19.34" friendlyPos="true"/>
+    <busStop id="-1383533578" lane="-137534616#0_1" startPos="26.21" endPos="41.21" friendlyPos="true"/>
+    <busStop id="-1383533597" name="S Adlershof" lane="-152839426_1" startPos="43.35" endPos="50.85" friendlyPos="true"/>
+    <busStop id="-1553912606" name="Akeleiweg" lane="-141968830#1_1" startPos="29.09" endPos="44.09" friendlyPos="true"/>
+    <busStop id="-1560223555" lane="-314415495#3_1" startPos="89.28" endPos="104.28" friendlyPos="true"/>
+    <busStop id="-1560223790" name="Wilhelm-Ostwald-Straße" lane="-314415495#6_1" startPos="0.00" endPos="14.02" friendlyPos="true"/>
+    <busStop id="-1568240825" name="Altglienicke Kirche" lane="-81096611#0_1" startPos="408.69" endPos="423.69" friendlyPos="true"/>
+    <busStop id="-1756300980" name="S Adlershof" lane="-20553068#3_1" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="-1906421953" name="S Adlershof" lane="-45875465_1" startPos="33.09" endPos="40.92" friendlyPos="true"/>
+    <busStop id="-2391105467" lane="-318210373#0_1" startPos="26.35" endPos="41.35" friendlyPos="true"/>
+    <busStop id="-301263813" name="Altglienicke Kirche" lane="-144909690#0_1" startPos="115.93" endPos="130.93" friendlyPos="true"/>
+    <busStop id="-301292770" lane="-169076556#3_1" startPos="17.31" endPos="32.31" friendlyPos="true"/>
+    <busStop id="-385200818" name="Albert-Einstein-Straße" lane="-314415495#16_1" startPos="0.09" endPos="9.09" friendlyPos="true"/>
+    <busStop id="-385200819" name="Albert-Einstein-Straße" lane="-314415495#15_1" startPos="1.70" endPos="16.70" friendlyPos="true"/>
+    <busStop id="-4922203169" name="Rosenweg" lane="-5060708#8_1" startPos="11.51" endPos="26.51" friendlyPos="true"/>
+    <busStop id="-4922203170" name="Rosenweg" lane="-5060708#9_1" startPos="11.66" endPos="26.66" friendlyPos="true"/>
+    <busStop id="-4922203176" name="Friedrich-Wolf-Straße" lane="-94517926#5_1" startPos="222.97" endPos="237.97" friendlyPos="true"/>
+    <busStop id="-4922203177" name="Friedrich-Wolf-Straße" lane="-94517926#5_1" startPos="184.47" endPos="199.47" friendlyPos="true"/>
+    <busStop id="-4922203178" name="Betonwerk" lane="-5060708#3_1" startPos="37.88" endPos="52.88" friendlyPos="true"/>
+    <busStop id="-4922203179" name="Betonwerk" lane="-5060708#3_1" startPos="7.35" endPos="22.35" friendlyPos="true"/>
+    <busStop id="-664208807" name="Wilhelm-Ostwald-Straße" lane="-314415495#6_1" startPos="8.04" endPos="23.04" friendlyPos="true"/>
+    <busStop id="-837696912" name="Akeleiweg" lane="-141968853#1_1" startPos="38.97" endPos="53.97" friendlyPos="true"/>
+    <busStop id="-837697182" name="Johannes-Sasse-Ring" lane="-141968799_1" startPos="354.64" endPos="369.64" friendlyPos="true"/>
+    <busStop id="-851572693" lane="-46150481#0_1" startPos="12.23" endPos="27.23" friendlyPos="true"/>
+    <busStop id="-851572829" name="Korkedamm" lane="-81096611#1_1" startPos="42.53" endPos="57.53" friendlyPos="true"/>
+    <busStop id="-852932398" lane="-46150481#0_1" startPos="21.67" endPos="36.67" friendlyPos="true"/>
+    <busStop id="-942861696" name="Altglienicker Brücke" lane="-144909690#1_1" startPos="12.45" endPos="27.45" friendlyPos="true"/>
+    <busStop id="-94487924" name="Altglienicke Kirche" lane="-144909690#0_1" startPos="110.78" endPos="125.78" friendlyPos="true"/>
+    <busStop id="-94487938" name="Altglienicker Brücke" lane="-144909690#2_1" startPos="11.95" endPos="26.95" friendlyPos="true"/>
+    <busStop id="-945142098" name="Hans-Schmidt-Straße" lane="-318210378#8_1" startPos="69.69" endPos="84.69" friendlyPos="true"/>
+    <busStop id="-945142208" name="Hans-Schmidt-Straße" lane="-318210378#5_1" startPos="7.39" endPos="22.39" friendlyPos="true"/>
+    <busStop id="-945142241" lane="-314415495#1_1" startPos="12.46" endPos="27.46" friendlyPos="true"/>
+    <busStop id="1094134880" name="Johannes-Sasse-Ring" lane="141968799_1" startPos="306.75" endPos="321.75" friendlyPos="true"/>
+    <busStop id="1383533459" name="Abtstraße" lane="24152326#0_1" startPos="60.30" endPos="75.30" friendlyPos="true"/>
+    <busStop id="1383533461" lane="318210360#0_1" startPos="60.37" endPos="75.37" friendlyPos="true"/>
+    <busStop id="1383533462" lane="204721579#1_1" startPos="90.22" endPos="105.22" friendlyPos="true"/>
+    <busStop id="1383533492" name="Büchnerweg" lane="23913524#2_1" startPos="38.10" endPos="53.10" friendlyPos="true"/>
+    <busStop id="1383533494" name="Büchnerweg" lane="23913524#2_1" startPos="20.38" endPos="35.38" friendlyPos="true"/>
+    <busStop id="1383533575" lane="149611526#0_1" startPos="23.99" endPos="38.99" friendlyPos="true"/>
+    <busStop id="1383533577" lane="137534616#0_1" startPos="34.99" endPos="49.99" friendlyPos="true"/>
+    <busStop id="1383533578" lane="137534616#0_1" startPos="12.92" endPos="27.92" friendlyPos="true"/>
+    <busStop id="1383533597" name="S Adlershof" lane="152839426_1" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="1553912606" name="Akeleiweg" lane="141968830#1_1" startPos="13.52" endPos="28.52" friendlyPos="true"/>
+    <busStop id="1560223236" lane="143308587#1_1" startPos="32.07" endPos="47.07" friendlyPos="true"/>
+    <busStop id="1560223555" lane="314415495#3_1" startPos="9.46" endPos="24.46" friendlyPos="true"/>
+    <busStop id="1560223790" name="Wilhelm-Ostwald-Straße" lane="314415495#6_1" startPos="51.21" endPos="63.92" friendlyPos="true"/>
+    <busStop id="1568240825" name="Altglienicke Kirche" lane="81096611#0_1" startPos="33.94" endPos="48.94" friendlyPos="true"/>
+    <busStop id="1656195133" name="S Adlershof" lane="206889086#1_1" startPos="21.84" endPos="29.35" friendlyPos="true"/>
+    <busStop id="1756300980" name="S Adlershof" lane="20553068#3_1" startPos="2.87" endPos="10.37" friendlyPos="true"/>
+    <busStop id="1862990707" name="Otto-Franke-Straße" lane="153021549#1_1" startPos="31.81" endPos="46.81" friendlyPos="true"/>
+    <busStop id="1906421953" name="S Adlershof" lane="45875465_1" startPos="0.02" endPos="7.85" friendlyPos="true"/>
+    <!--
+    <busStop id="2050022025" name="Hermann-Dorner-Allee" lane="70130339#1_1" startPos="76.75" endPos="91.75" friendlyPos="true"/>
+    <busStop id="2050022029" name="Hermann-Dorner-Allee" lane="231626692#1_1" startPos="168.37" endPos="183.37" friendlyPos="true"/>
+    -->
+    <busStop id="2391105467" lane="318210373#0_1" startPos="16.01" endPos="31.01" friendlyPos="true"/>
+    <busStop id="297194207" lane="113575152#13_1" startPos="46.94" endPos="57.31" friendlyPos="true"/>
+    <busStop id="301263813" name="Altglienicke Kirche" lane="144909690#0_1" startPos="25.21" endPos="40.21" friendlyPos="true"/>
+    <busStop id="301292770" lane="169076556#3_1" startPos="6.34" endPos="21.34" friendlyPos="true"/>
+    <busStop id="301331956" name="Magnusstraße" lane="143308546#3_1" startPos="39.41" endPos="54.41" friendlyPos="true"/>
+    <busStop id="306982602" name="Magnusstraße" lane="143308542#6_1" startPos="14.23" endPos="29.23" friendlyPos="true"/>
+    <busStop id="3812676495" name="Otto-Franke-Straße" lane="153021553#1_1" startPos="32.30" endPos="47.30" friendlyPos="true"/>
+    <busStop id="3834046602" lane="190928927#2_1" startPos="22.83" endPos="37.83" friendlyPos="true"/>
+    <!--
+    <busStop id="3834046603" name="Zinsgutstraße" lane="113575152#2_1" startPos="10.57" endPos="25.57" friendlyPos="true"/>
+    <busStop id="3834046604" name="Zinsgutstraße" lane="190928927#13_1" startPos="0.00" endPos="13.97" friendlyPos="true"/>
+    -->
+    <busStop id="385200818" name="Albert-Einstein-Straße" lane="314415495#16_1" startPos="15.50" endPos="24.49" friendlyPos="true"/>
+    <busStop id="385200819" name="Albert-Einstein-Straße" lane="314415495#15_1" startPos="3.97" endPos="18.97" friendlyPos="true"/>
+    <busStop id="3893875078" name="Otto-Franke-Straße" lane="204721578#0_1" startPos="44.07" endPos="59.07" friendlyPos="true"/>
+    <busStop id="464396487" lane="143308542#1_1" startPos="29.43" endPos="44.43" friendlyPos="true"/>
+    <busStop id="464396566" name="Walther-Nernst-Straße" lane="670062907#2_1" startPos="1.05" endPos="16.05" friendlyPos="true"/>
+    <busStop id="464396589" name="Walther-Nernst-Straße" lane="143308542#18_1" startPos="1.10" endPos="16.10" friendlyPos="true"/>
+    <busStop id="4922203169" name="Rosenweg" lane="5060708#8_1" startPos="16.40" endPos="31.40" friendlyPos="true"/>
+    <busStop id="4922203170" name="Rosenweg" lane="5060708#9_1" startPos="2.32" endPos="17.32" friendlyPos="true"/>
+    <busStop id="4922203176" name="Friedrich-Wolf-Straße" lane="94517926#5_1" startPos="61.71" endPos="76.71" friendlyPos="true"/>
+    <busStop id="4922203177" name="Friedrich-Wolf-Straße" lane="94517926#5_1" startPos="100.17" endPos="115.17" friendlyPos="true"/>
+    <busStop id="4922203178" name="Betonwerk" lane="5060708#3_1" startPos="34.64" endPos="49.64" friendlyPos="true"/>
+    <busStop id="4922203179" name="Betonwerk" lane="5060708#3_1" startPos="65.17" endPos="80.17" friendlyPos="true"/>
+    <busStop id="5315085711" name="S Adlershof" lane="806903753_1" startPos="0.00" endPos="4.19" friendlyPos="true"/>
+    <busStop id="583899039" name="S Adlershof" lane="218797686#0_1" startPos="0.00" endPos="12.50" friendlyPos="true"/>
+    <busStop id="664208807" name="Wilhelm-Ostwald-Straße" lane="314415495#6_1" startPos="42.35" endPos="57.35" friendlyPos="true"/>
+    <busStop id="671564316" lane="143308532#2_1" startPos="0.00" endPos="13.45" friendlyPos="true"/>
+    <busStop id="837696418" name="James-Franck-Straße" lane="143308532#8_1" startPos="27.03" endPos="42.03" friendlyPos="true"/>
+    <busStop id="837696524" name="James-Franck-Straße" lane="143308532#5_1" startPos="50.85" endPos="65.85" friendlyPos="true"/>
+    <busStop id="837696912" name="Akeleiweg" lane="141968853#1_1" startPos="9.35" endPos="24.35" friendlyPos="true"/>
+    <busStop id="837697182" name="Johannes-Sasse-Ring" lane="141968799_1" startPos="352.40" endPos="367.40" friendlyPos="true"/>
+    <busStop id="851572693" lane="46150481#0_1" startPos="43.27" endPos="58.27" friendlyPos="true"/>
+    <busStop id="851572829" name="Korkedamm" lane="81096611#1_1" startPos="76.36" endPos="91.36" friendlyPos="true"/>
+    <busStop id="852932398" lane="46150481#0_1" startPos="34.00" endPos="49.00" friendlyPos="true"/>
+    <busStop id="942861696" name="Altglienicker Brücke" lane="144909690#1_1" startPos="207.24" endPos="222.24" friendlyPos="true"/>
+    <busStop id="94487924" name="Altglienicke Kirche" lane="144909690#0_1" startPos="30.37" endPos="45.37" friendlyPos="true"/>
+    <busStop id="94487938" name="Altglienicker Brücke" lane="144909690#2_1" startPos="36.54" endPos="51.54" friendlyPos="true"/>
+    <busStop id="945142098" name="Hans-Schmidt-Straße" lane="318210378#8_1" startPos="4.36" endPos="19.36" friendlyPos="true"/>
+    <busStop id="945142208" name="Hans-Schmidt-Straße" lane="318210378#5_1" startPos="37.90" endPos="52.90" friendlyPos="true"/>
+    <busStop id="945142241" lane="314415495#1_1" startPos="28.86" endPos="43.86" friendlyPos="true"/>
+</additional>

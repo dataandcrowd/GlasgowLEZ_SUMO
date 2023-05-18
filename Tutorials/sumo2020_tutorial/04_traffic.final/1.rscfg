@@ -1,0 +1,5 @@
+<configuration>
+    <edgedata-files value="edgecounts.xml"/>
+    <output-file value="passenger.sampled.rou.xml"/>
+    <route-files value="vehroutes.xml"/>
+</configuration>

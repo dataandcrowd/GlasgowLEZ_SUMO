@@ -1,0 +1,4 @@
+<additional>
+    <edgeData id="vehData" file="edgeData_vehs.xml"/>
+    <edgeData id="pedData" file="edgeData_peds.xml" detectPersons="walk"/>
+</additional>

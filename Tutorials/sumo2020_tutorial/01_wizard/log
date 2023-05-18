@@ -1,0 +1,103 @@
+Loading net-file from 'osm.net.xml' ... done (2286ms).
+Warning: At actuated tlLogic 'GS_158710664', actuated phase 3 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 2 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 3 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 4 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 2 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 3 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 4 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 18 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 19 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 20 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 21 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 36 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 37 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 38 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 39 has no controlling detector
+Loading additional-files from 'osm.poly.xml' ... done (263ms).
+Loading additional-files from 'osm_stops.add.xml' ... done (22ms).
+Loading done.
+Simulation version v1_7_0+0414-abba6bd674 started with time: 0.00
+Warning: busStop '1560223236' on lane '143308587#1_1' is too short for vehicle 'pt_bus_160:0.0'.
+Warning: busStop '1656195133' on lane '206889086#1_1' is too short for vehicle 'pt_bus_162:0.0'.
+Warning: busStop '5315085711' on lane '806903753_1' is too short for vehicle 'pt_bus_162:1.0'.
+Warning: busStop '1704693343' on lane '158236729#0_0' is too short for vehicle 'pt_tram_61:0.0'.
+Warning: busStop '1704693457' on lane '220198808#3_0' is too short for vehicle 'pt_tram_61:0.0'.
+Warning: busStop '1704693369' on lane '220198810#6_0' is too short for vehicle 'pt_tram_61:1.0'.
+Warning: busStop '3508654675' on lane '22917995_0' is too short for vehicle 'pt_train_S45:0.0'.
+Warning: Person 'ped489' aborted waiting for 160:0 at busStop '1560223236'.
+Warning: Person 'ped1324' aborted waiting for 160:1 at busStop '837696418'.
+Warning: Person 'ped961' aborted waiting for 160:1 at busStop '837696418'.
+Warning: Person 'ped836' aborted waiting for 162:1 at busStop '464396589'.
+Warning: Person 'ped597' aborted waiting for 164:1 at busStop '464396589'.
+Warning: Person 'ped1270' aborted waiting for 162:3 at busStop '3834046604'.
+Warning: Person 'ped205' aborted waiting for 61:0 at busStop '583899039'.
+Warning: Person 'ped576' aborted waiting for 63:0 at busStop '583899039'.
+Warning: Person 'ped1016' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped806' aborted waiting for 61:1 at busStop '1704693451'.
+Warning: Person 'ped372' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped400' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped768' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped554' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped525' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped732' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped825' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped870' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped972' aborted waiting for 61:1 at busStop '1704693369'.
+Warning: Person 'ped559' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped992' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped849' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped651' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped956' aborted waiting for 163:0 at busStop '1656195133'.
+Warning: Person 'ped1071' aborted waiting for 61:1 at busStop '1704693381'.
+Warning: Person 'ped1022' aborted waiting for 260:0 at busStop '-385200818'.
+Warning: Person 'ped1078' aborted waiting for 260:0 at busStop '-942861696'.
+Warning: Person 'ped568' aborted waiting for 160:0 at busStop '852932398'.
+Warning: Person 'ped1221' aborted waiting for 162:2 at busStop '1560223236'.
+Warning: Person 'ped1296' aborted waiting for 162:2 at busStop '1560223236'.
+Warning: Person 'ped1561' aborted waiting for 162:2 at busStop '1560223236'.
+Warning: Person 'ped1000' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped1118' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped1318' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped996' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped1459' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped1326' aborted waiting for 162:2 at busStop '301331956'.
+Warning: Person 'ped1335' aborted waiting for 162:2 at busStop '1560223236'.
+Warning: Person 'ped81' aborted waiting for 163:2 at busStop '5315085711'.
+Simulation ended at time: 6784.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 48.33s
+ Real time factor: 140.365
+ UPS: 7165.773520
+ UPS-Persons: 46141.006807
+Vehicles: 
+ Inserted: 1216
+ Running: 0
+ Waiting: 0
+Persons: 
+ Inserted: 1575
+ Running: 0
+Statistics (avg):
+ RouteLength: 2270.29
+ Speed: 8.41
+ Duration: 284.81
+ WaitingTime: 35.00
+ TimeLoss: 82.02
+ DepartDelay: 0.56
+Pedestrian Statistics (avg of 2543 walks):
+ RouteLength: 790.18
+ Duration: 658.71
+ TimeLoss: 93.35
+Ride Statistics (avg of 1048 rides):
+ WaitingTime: 140.24
+ RouteLength: 1069.57
+ Duration: 200.43
+ Bus: 925
+ Train: 69
+ Aborted: 54
+
+DijkstraRouter answered 86739 queries and explored 15.90 edges on average.
+DijkstraRouter spent 0.69s answering queries (0.01ms on average).
+DijkstraRouter answered 1136 queries and explored 913.18 edges on average.
+DijkstraRouter spent 1.45s answering queries (1.28ms on average).

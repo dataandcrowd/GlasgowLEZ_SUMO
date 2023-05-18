@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2021-09-10 11:50:07.798170 by gtfs2pt.py v1_10_0+0661-0e4e616c0dc
+  options: -n osm.net.xml <doubleminus>gtfs GTFS.zip <doubleminus>date 20211206 <doubleminus>osm-routes osm_ptlines.xml <doubleminus>repair
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="bus" vClass="bus"/>
+    <vType id="train" vClass="rail"/>
+    <vType id="tram" vClass="tram"/>
+    <vType id="subway" vClass="rail_urban"/>
+    <vType id="ferry" vClass="ship"/>
+</additional>

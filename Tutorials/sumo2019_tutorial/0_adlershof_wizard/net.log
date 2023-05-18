@@ -1,0 +1,271 @@
+Parsing types from 'osmNetconvert.typ.xml'... done.
+Parsing types from 'osmNetconvertUrbanDe.typ.xml'... done.
+Parsing types from 'osmNetconvertPedestrians.typ.xml'... done.
+Parsing nodes from osm-file 'osm_bbox.osm.xml'... done.
+Parsing edges from osm-file 'osm_bbox.osm.xml'... done.
+Removing duplicate edges... done.
+Warning: Discarding unusable type 'waterway.riverbank' (first occurence for edge '4616435#0').
+Warning: Discarding unknown compound 'usage.main' in type 'railway.light_rail|usage.main' (first occurence for edge '4782366').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.secondary' (first occurence for edge '8025704#0').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.primary' (first occurence for edge '10735918#0').
+Warning: Discarding unknown compound 'usage.main' in type 'railway.rail|usage.main' (first occurence for edge '22917267').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.tertiary_link' (first occurence for edge '31050366#0').
+Warning: Discarding unusable type 'waterway.canal' (first occurence for edge '31233332#0').
+Warning: Discarding unusable type 'waterway.stream' (first occurence for edge '37824110').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.secondary' (first occurence for edge '40191608').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.primary' (first occurence for edge '43660344').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.tertiary' (first occurence for edge '46039050#0').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.tertiary' (first occurence for edge '52080655#0').
+Warning: Discarding unusable type 'railway.platform' (first occurence for edge '81096602#0').
+Warning: Discarding unusable type 'waterway.drain' (first occurence for edge '115921102').
+Adding new type 'highway.service|railway.tram' (first occurence for edge '158236381').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.residential' (first occurence for edge '187094504').
+Warning: Discarding unusable type 'railway.disused' (first occurence for edge '197642998').
+Warning: Discarding unknown compound 'usage.crossover' in type 'railway.rail|usage.crossover' (first occurence for edge '320737460').
+Warning: Discarding unknown compound 'railway.razed' in type 'railway.razed|usage.industrial' (first occurence for edge '321762912').
+Warning: Discarding unknown compound 'usage.industrial' in type 'railway.razed|usage.industrial' (first occurence for edge '321762912').
+Warning: Discarding unusable type 'railway.razed|usage.industrial' (first occurence for edge '321762912').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.unclassified' (first occurence for edge '334308450').
+Warning: Discarding unusable type 'railway.platform_edge' (first occurence for edge '398043250#0').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.unclassified' (first occurence for edge '461093309#0').
+Warning: Discarding unusable type 'railway.proposed' (first occurence for edge '466720637#0').
+Warning: Discarding unusable type 'highway.construction' (first occurence for edge '578659321#0').
+Parsing relations from osm-file 'osm_bbox.osm.xml'... 
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 35009 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 35032 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 35040 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 228027 are ignored
+Warning: No way found for reference '224769559' in relation '536784'
+Warning: Ignoring restriction relation '536784' with unknown from-way.
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1119047 are ignored
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448995' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Platform '383448994' in  relation: '1216672'  is given as polygon, which currently is not supported.
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1226998 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1227008 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1227011 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1227012 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1231708 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1231710 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 1231713 are ignored
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '1727169'.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '1727170'.
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2064835 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2077981 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2084497 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2139598 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2139599 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2194813 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2194814 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2212554 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2212555 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2269251 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2269252 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2389945 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2389946 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2422928 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2422929 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2979449 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 2979451 are ignored
+Warning: PT line in relation 5460156 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 5460157 with no stops ignored. Probably OSM file is incomplete.
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 6783677 are ignored
+Warning: Done reading first coherent chunk of pt stops. Further stops in relation 6783678 are ignored
+done.
+ Removed 72 traffic lights before loading plain-XML
+ Import done:
+   1851 nodes loaded.
+   33 types loaded.
+   3536 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=33 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops... done (2ms).
+Processing public transport stops... done (2ms).
+Revising public transport stops based on pt lines... 
+Warning: PT stop: 945142208 has been moved to edge: -318210378#3
+Warning: PT stop: 385200818 has been moved to edge: -314415495#14
+Warning: PT stop: 1560223790 has been moved to edge: -314415495#6
+Warning: PT stop: 1560223555 has been moved to edge: -314415495#3
+Warning: PT stop: 1383533494 has been moved to edge: -23913524#5
+Warning: Could not re-assign PT stop: 766875150 probably broken osm file
+Warning: Incomplete route for ptline '2077981' (Straßenbahnlinie 61: Adlershof, Karl-Ziegler-Straße => Rahnsdorf/Waldschänke)
+Warning: Could not re-assign PT stop: 766875150 probably broken osm file
+Warning: Incomplete route for ptline '2084497' (Straßenbahnlinie 63: Karl-Ziegler-Straße => Rahnsdorfer Straße)
+Warning: PT stop: 1906421953 has been moved to edge: -45875465#0
+Warning: PT stop: 1383533578 has been moved to edge: -137534616#0
+done (40ms).
+Align pt stop id signs with corresponding edge id signs... done (4ms).
+Added 1 bidi-edges for public transport stops and a total of 3 bidi-edges to ensure connectivity of stops (0 stops remain disconnected)
+DijkstraRouter answered 9 queries and explored 40.89 edges on average.
+DijkstraRouter spent 0ms answering queries (0.00ms on average).
+Found 119 railway edges and 114 railway nodes (3 signals).
+Railway nodes by number of incoming,outgoing edges:
+   0,1 count: 4 broken: 0
+   1,0 count: 6 broken: 0
+   1,1 count: 88 broken: 0
+   1,2 count: 7 broken: 1
+   2,1 count: 5 broken: 1
+   2,2 count: 4 broken: 0
+Found 2 broken railway nodes (A=1 B=1 C=1 D=1)
+Found 0 railway nodes marked as buffer_stop
+Found 3 bidirectional rail edges
+Joining junction clusters... 
+Warning: Not joining junctions 1311774270,1677246221,5548037023 (not compact (maxEdge=142575678#0 length=9.41))
+Warning: Not joining junctions 1523542379,1560224383 (only 1 exit node)
+Warning: Reducing junction cluster 1560223505,2626215560,493585696 (parallel incoming -581145190,43660343#1)
+Warning: Not joining junctions 1560224004,2697454308,3351100946,38919703,38920751,443598344,5546254934 (not compact (maxEdge=143308546#16 length=6.66))
+Warning: Not joining junctions 1560224076,945141561 (only 1 exit node)
+Warning: Reducing junction cluster 1560224191,1560224195,2697454310,3188106061,443598395,5546254959,5546254963 (not compact (maxEdge=142575692#2 length=6.83))
+Warning: Not joining junctions 1560224385,671564363 (only 1 entry node)
+Warning: Not joining junctions 1912649841,2648427273 (only 1 edge within and no cross-traffic)
+Warning: Reducing junction cluster 2648427268,3180391951,3180391952,663785645 (only 1 entry node)
+Warning: Not joining junctions 3180391969,5543923869 (only 1 entry node)
+Warning: Not joining junctions 3351121209,499495891 (only 1 exit node)
+Warning: Ambiguous node type for node cluster 'cluster_1704693823_3094848229_3646631964_5226716100_5226721574' (rail_crossing,unknown) set to 'priority'
+Warning: Ambiguous node type for node cluster 'cluster_1789928382_664166124_664166125_664166127' (rail_crossing,unknown) set to 'priority'
+Warning: Ambiguous node type for node cluster 'cluster_1789928382_664166124_664166125_664166127' (priority,rail_crossing) set to 'priority'
+Warning: Ambiguous node type for node cluster 'cluster_2293276823_2293276824_2293276825_2293276826_2293276827_2697454316_30618470_36268429_493585805_493585807_493585811_493585812' (rail_crossing,unknown) set to 'priority'
+Warning: Ambiguous node type for node cluster 'cluster_2293276823_2293276824_2293276825_2293276826_2293276827_2697454316_30618470_36268429_493585805_493585807_493585811_493585812' (priority,rail_crossing) set to 'priority'
+Warning: Ambiguous node type for node cluster 'cluster_2293276823_2293276824_2293276825_2293276826_2293276827_2697454316_30618470_36268429_493585805_493585807_493585811_493585812' (priority,rail_crossing) set to 'priority'
+done (123ms).
+ Joined 136 junction cluster(s).
+Removing empty nodes and geometry nodes... done (8ms).
+   228 nodes removed.
+Moving network to origin... done (11ms).
+Computing turning directions... 
+Warning: Ambiguity in turnarounds computation at junction '2391105444'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_3266511058_482381122_676265561'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_3266530862_3266530865_3266530867_3266530868'.
+Warning: Ambiguity in turnarounds computation at junction 'cluster_3266530863_3266530864_3266530866_3266530869'.
+done (22ms).
+Assigning nodes to traffic lights... done (2ms).
+Warning: Found sharp turn with radius 4.30 at the end of edge '-133858467#1'.
+Warning: Found sharp turn with radius 7.22 at the start of edge '-133858467#2'.
+Warning: Found sharp turn with radius 5.97 at the end of edge '-143308497#1'.
+Warning: Found sharp turn with radius 7.86 at the end of edge '-187122892#9'.
+Warning: Found sharp turn with radius 6.56 at the end of edge '-25951597#2'.
+Warning: Found sharp turn with radius 5.14 at the start of edge '-320153863#4'.
+Warning: Found sharp turn with radius 6.68 at the end of edge '-320741892#0'.
+Warning: Found sharp turn with radius 2.87 at the start of edge '-40089662#1'.
+Warning: Found sharp turn with radius 8.32 at the start of edge '-53529255#2'.
+Warning: Found sharp turn with radius 6.81 at the end of edge '-53529255#5'.
+Warning: Found sharp turn with radius 8.60 at the start of edge '-543699379#1'.
+Warning: Found sharp turn with radius 6.84 at the start of edge '-579269947#1'.
+Warning: Found sharp turn with radius 3.85 at the start of edge '-581145162'.
+Warning: Found sharp turn with radius 3.93 at the start of edge '-581596946'.
+Warning: Found sharp turn with radius 5.84 at the end of edge '114024961#0'.
+Warning: Found sharp turn with radius 8.97 at the start of edge '114025356#1'.
+Warning: Found angle of 133.95 degrees at edge '114285342', segment 0
+Warning: Found sharp turn with radius 5.12 at the start of edge '114285342'.
+Warning: Found sharp turn with radius 5.06 at the start of edge '114355951'.
+Warning: Found sharp turn with radius 8.24 at the start of edge '114355960#1'.
+Warning: Found sharp turn with radius 1.71 at the start of edge '128643746#0'.
+Warning: Found sharp turn with radius 1.80 at the end of edge '128643746#1'.
+Warning: Found sharp turn with radius 4.30 at the start of edge '133858467#1'.
+Warning: Found sharp turn with radius 5.97 at the start of edge '143308497#1'.
+Warning: Found sharp turn with radius 1.15 at the start of edge '143308673#5'.
+Warning: Found sharp turn with radius 4.96 at the start of edge '143308678'.
+Warning: Found sharp turn with radius 4.73 at the start of edge '143308685#1'.
+Warning: Found sharp turn with radius 5.27 at the start of edge '143308689#1'.
+Warning: Found sharp turn with radius 1.03 at the end of edge '143308689#1'.
+Warning: Found sharp turn with radius 7.86 at the start of edge '187122892#9'.
+Warning: Found sharp turn with radius 5.04 at the start of edge '24152582#1'.
+Warning: Found sharp turn with radius 6.56 at the start of edge '25951597#2'.
+Warning: Found sharp turn with radius 2.14 at the start of edge '26004861#0'.
+Warning: Found sharp turn with radius 6.74 at the start of edge '320153863#4'.
+Warning: Found sharp turn with radius 6.68 at the start of edge '320741892#0'.
+Warning: Found sharp turn with radius 4.47 at the start of edge '329733350#0'.
+Warning: Found sharp turn with radius 5.16 at the start of edge '37958340#0'.
+Warning: Found angle of 110.99 degrees at edge '37958340#0', segment 1
+Warning: Found sharp turn with radius 2.82 at the end of edge '37958340#0'.
+Warning: Found angle of 103.38 degrees at edge '37958340#2', segment 0
+Warning: Found sharp turn with radius 1.26 at the start of edge '37958340#2'.
+Warning: Found sharp turn with radius 2.57 at the start of edge '518680733'.
+Warning: Found sharp turn with radius 4.02 at the end of edge '521731433#1'.
+Warning: Found sharp turn with radius 8.88 at the start of edge '53529200#4'.
+Warning: Found sharp turn with radius 8.88 at the end of edge '53529206#1'.
+Warning: Found sharp turn with radius 8.32 at the end of edge '53529255#2'.
+Warning: Found sharp turn with radius 6.81 at the start of edge '53529255#5'.
+Warning: Found sharp turn with radius 8.60 at the end of edge '543699379#1'.
+Warning: Found sharp turn with radius 2.63 at the end of edge '55652793#0'.
+Warning: Found sharp turn with radius 2.46 at the start of edge '578659326'.
+Warning: Found angle of 119.60 degrees at edge '578659329#1', segment 2
+Warning: Found sharp turn with radius 7.18 at the end of edge '578659350#1'.
+Warning: Found sharp turn with radius 4.49 at the start of edge '578659352#2'.
+Warning: Found sharp turn with radius 4.07 at the start of edge '579026161#4'.
+Warning: Found sharp turn with radius 7.84 at the start of edge '579026169#4'.
+Warning: Found sharp turn with radius 6.82 at the start of edge '579026173'.
+Warning: Found sharp turn with radius 1.82 at the start of edge '579026217'.
+Warning: Found sharp turn with radius 4.63 at the start of edge '579026220#1'.
+Warning: Found sharp turn with radius 2.97 at the start of edge '579026223'.
+Warning: Found sharp turn with radius 2.83 at the end of edge '579269898#5'.
+Warning: Found sharp turn with radius 4.92 at the start of edge '579269913#1'.
+Warning: Found sharp turn with radius 6.84 at the end of edge '579269947#1'.
+Warning: Found sharp turn with radius 7.72 at the start of edge '579671850#1'.
+Warning: Found sharp turn with radius 7.81 at the end of edge '579671850#1'.
+Warning: Found sharp turn with radius 3.85 at the end of edge '581145162'.
+Warning: Found sharp turn with radius 5.67 at the end of edge '581596937'.
+Warning: Found sharp turn with radius 4.51 at the end of edge '581596942'.
+Warning: Found sharp turn with radius 3.93 at the end of edge '581596946'.
+Warning: Found sharp turn with radius 2.04 at the start of edge '70214888#3'.
+Sorting nodes' edges... done (4ms).
+Computing node shapes... done (47ms).
+Computing edge shapes... done (30ms).
+Computing node types... done (4ms).
+Guessed 640 pedestrian crossings.
+Computing priorities... done (6ms).
+Computing approached edges... done (8ms).
+Guessing and setting roundabouts... done (4ms).
+Computing approaching lanes... done (18ms).
+Dividing of lanes on approached lanes... done (11ms).
+Processing turnarounds... done (4ms).
+Rechecking of lane endings... done (4ms).
+Joining traffic light nodes... done (5ms).
+Computing traffic light control information... 
+Warning: The rail crossing 'cluster_2697454309_945141621' does not have any roads.
+Warning: The rail crossing 'cluster_2697454311_2697454312' does not have any roads.
+Warning: The rail crossing 'cluster_5478343753_5478343754' does not have any roads.
+done (14ms).
+Computing node logics... done (39ms).
+Computing traffic light logics... done (7ms).
+ 17 traffic light(s) computed.
+Building inner edges... 
+Warning: Speed of straight connection '-38507369#0_1->-142575688#14_1' reduced by 7.44 due to turning radius of 7.56 (length=6.90 angle=73.44)
+Warning: Speed of straight connection '142575659#2_1->543074338_0' reduced by 6.86 due to turning radius of 8.98 (length=3.72 angle=41.07)
+Warning: Speed of straight connection '-543074338_0->-142575659#2_0' reduced by 6.10 due to turning radius of 11.04 (length=4.66 angle=41.07)
+Warning: Speed of straight connection '142575704#13_1->142575704#14_1' reduced by 5.27 due to turning radius of 13.50 (length=4.77 angle=36.50)
+done (85ms).
+Added 1 stops for superposed rail edges.
+Find accesses for pt rail stops... done (12ms).
+DijkstraRouter answered 4 queries and explored 5.50 edges on average.
+DijkstraRouter spent 0ms answering queries (0.00ms on average).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 415
+  Priority junctions          : 724
+  Right-before-left junctions : 195
+  Rail signal junctions      : 3
+ Network boundaries:
+  Original boundary  : 13.45,52.42,13.58,52.46
+  Applied offset     : -398790.46,-5809139.45
+  Converted boundary : 0.00,0.00,3486.58,3440.57
+-----------------------------------------------------
+Writing network... done (582ms).

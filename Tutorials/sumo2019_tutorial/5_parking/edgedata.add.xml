@@ -1,0 +1,5 @@
+<additional>
+    <edgeData id="vehData" file="edgeData_vehs.xml"/>
+    <edgeData id="vehData" file="edgeData_vehs_900.xml" freq="900"/>
+    <edgeData id="pedData" file="edgeData_peds.xml" detectPersons="walk"/>
+</additional>

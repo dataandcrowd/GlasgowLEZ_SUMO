@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07.05.2019 14:58:37 by Eclipse SUMO netedit Version v1_2_0+0280-89bb845180c
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final_test\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final_test\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2019\tutorial\4_demand.final_test\custom.rou.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="route_0" edges="318210355 206889086#1 152839448 541676219 318210389#0 81639675#1 81639675#2 143308555#1 143308555#2 143308555#3 143308546#1 143308546#2 143308546#3 143308546#4 143308546#5 143308546#6 143308546#7 143308546#8 143308546#9 143308546#10 143308546#11 143308546#12 143308546#13 143308546#14 143308546#15 143308546#16 143308546#17 143308546#18 143308546#19 143308546#20 143308546#21 143308546#23 143308546#24 143308546#25 143308546#26 143308587#0 143308587#1" color="blue"/>
+    <vType id="newType" speedFactor="normc(1.00,0.00)" vClass="passenger" sigma="0"/>
+    <flow id="flow_0" type="newType" begin="0.00" route="route_0" end="3600.00" vehsPerHour="300.00"/>
+</routes>

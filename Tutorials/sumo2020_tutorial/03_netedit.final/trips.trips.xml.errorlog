@@ -1,0 +1,22 @@
+Warning: At actuated tlLogic 'GS_158710664', actuated phase 3 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 2 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 3 has no controlling detector
+Warning: At actuated tlLogic 'GS_cluster_492462300_671564296', linkIndex 4 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 2 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 3 has no controlling detector
+Warning: At actuated tlLogic 'cluster_105789410_261609381_4106174736_5551955617_5551955618_593902037_6304928505', linkIndex 4 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 18 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 19 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 20 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 21 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 36 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 37 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 38 has no controlling detector
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585714_57343510', linkIndex 39 has no controlling detector
+Warning: busStop '1560223236' on lane '143308587#1_1' is too short for vehicle '0_bus_160:0'.
+Warning: busStop '1656195133' on lane '206889086#1_1' is too short for vehicle '3_bus_162:0'.
+Warning: busStop '5315085711' on lane '806903753_1' is too short for vehicle '4_bus_162:1'.
+Warning: busStop '1704693343' on lane '158236729#0_0' is too short for vehicle '11_tram_61:0'.
+Warning: busStop '1704693457' on lane '220198808#3_0' is too short for vehicle '11_tram_61:0'.
+Warning: busStop '1704693369' on lane '220198810#6_0' is too short for vehicle '12_tram_61:1'.
+Warning: busStop '3508654675' on lane '22917995_0' is too short for vehicle '17_train_S45:0'.

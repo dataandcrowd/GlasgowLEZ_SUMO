@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-09-07 13:22:16 by Eclipse SUMO netconvert Version v1_10_0+0545-84307969428
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="c:\erdm_ja\sumo-dev\data\typemap\osmNetconvert.typ.xml,c:\erdm_ja\sumo-dev\data\typemap\osmNetconvertUrbanDe.typ.xml,c:\erdm_ja\sumo-dev\data\typemap\osmNetconvertPedestrians.typ.xml,c:\erdm_ja\sumo-dev\data\typemap\osmNetconvertBicycle.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+    </formats>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="1119047" name="Bus 160: S Schöneweide =&gt; Altglienicke, Siriusstraße" line="160" type="bus" vClass="bus" completeness="0.16">
+        <route edges="141968799 141968830#1 141968830#2 141968810#0 141968810#1 141968823#0 141968823#1 141968853#0 141968853#1 141968853#2 46150483#0 46150483#1 206579057 206579058#1 46039050#1 46039050#4 46039050#7 143308587#1 24214694#3 24214694#4 24214694#5 190083618#0 -283317455#1 -143308570 -318210395 -190083616 46150481#0 46150481#1"/>
+        <busStop id="837697182" name="Johannes-Sasse-Ring"/>
+        <busStop id="837696912" name="Akeleiweg"/>
+        <busStop id="837696524" name="James-Franck-Straße"/>
+        <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="852932398" name="Wegedornstraße/Semmelweisstraße"/>
+    </ptLine>
+    <ptLine id="11788176" name="Bus N64: S Adlershof =&gt; S+U Wuhletal" line="N64" type="bus" vClass="bus" nightService="only" completeness="0.11">
+        <route edges="52036180#3 -679901152#1 -45875465 152839428 -152839426 -166142947 -178028204#9 -178028204#4 -178028204#3 -178028204#2 -178028204#1 -178028204#0"/>
+        <busStop id="8176926617" name="S Adlershof"/>
+        <busStop id="8058787291" name="S Adlershof"/>
+        <busStop id="-1906421953" name="S Adlershof"/>
+        <busStop id="3892451598" name="Marktplatz Adlershof"/>
+    </ptLine>
+    <ptLine id="11788177" name="Bus N64: S+U Wuhletal =&gt; S Adlershof" line="N64" type="bus" vClass="bus" nightService="only" completeness="0.08">
+        <route edges="178028204#0 178028204#1 178028204#2 178028204#3 178028204#4 178028204#9 166142947 152839426 -152839428 45875465 679901152#0 206889086#1 541676219 318210389#0 318210389#2 -137483074#2 -137483074#0 976351540#0 976351540#1 52036180#1 52036180#3"/>
+        <busStop id="1383533597" name="Anna-Seghers-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="8176926617" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="1200744" name="Bus 172: S Lichtenrade/Blohmstraße =&gt; U Rudow" line="172" type="bus" vClass="bus" completeness="0.11">
+        <route edges="145586617#0 145586617#1 145586617#2 145586617#3 145586617#4 145586617#5 145586617#6"/>
+        <busStop id="664609197" name="Massantebrücke"/>
+        <busStop id="664609199" name="Kanalstraße 38-41"/>
+        <busStop id="664609203" name="Mistelweg"/>
+        <busStop id="664609166" name="Hafenstraße"/>
+        <busStop id="664609173" name="August-Froehlich-Straße"/>
+    </ptLine>
+    <ptLine id="1201388" name="Bus 172: U Rudow =&gt; S Lichtenrade/Blohmstraße" line="172" type="bus" vClass="bus" completeness="0.11">
+        <route edges="145586617#0 145586617#1 145586617#2 145586617#3 145586617#4 145586617#5 145586617#6"/>
+        <busStop id="664609175" name="August-Froehlich-Straße"/>
+        <busStop id="664609167" name="Hafenstraße"/>
+        <busStop id="664609202" name="Mistelweg"/>
+        <busStop id="664609200" name="Kanalstraße 38-41"/>
+        <busStop id="664609198" name="Massantebrücke"/>
+    </ptLine>
+    <ptLine id="1226998" name="Bus 162: S Adlershof =&gt; U Rudow" line="162" type="bus" vClass="bus" completeness="0.45">
+        <route edges="206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 670062909#1 670062908#1 670062907#1 670062907#2 670062907#4 677933664#4 143308546#0 143308546#1 143308546#3 143308546#7 143308546#8 670062902#2 143308587#1 24214694#3 24214694#4 24214694#5 190083618#0 -283317455#1 -143308570 -318210395 -190083616 46150481#0 46150481#1"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="464396566" name="Walther-Nernst-Straße"/>
+        <busStop id="301331956" name="Magnusstraße"/>
+        <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="852932398" name="Wegedornstraße/Semmelweisstraße"/>
+    </ptLine>
+    <ptLine id="1227007" name="Bus 162: U Rudow =&gt; S Adlershof" line="162" type="bus" vClass="bus" completeness="0.45">
+        <route edges="-46150481#1 -46150481#0 190083616 318210395 143308570 283317455#0 -190083618#1 -24214694#5 -24214694#4 -24214694#3 143308590#0 143308542#1 143308542#3 143308542#4 143308542#6 143308542#8 143308542#12 143308542#13 143308542#14 143308542#15 143308552#1 143308549#1 143308549#2 143308549#3 143308549#5 140295392 158236381 220194458#3"/>
+        <busStop id="-851572693" name="Wegedornstraße/Semmelweisstraße"/>
+        <busStop id="464396487" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="306982602" name="Magnusstraße"/>
+        <busStop id="464396589" name="Walther-Nernst-Straße"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="1227008" name="Bus 163: Flughafen BER - Terminal 5 =&gt; S Adlershof" line="163" type="bus" vClass="bus" completeness="0.26">
+        <route edges="144909690 375685718#0 375685718#1 382647882 12749623 81639678#0 81639678#1 48858191#1 318210383#0 52243916#1 -43660343#1 -43660343#0 10735918#0 204721579#2 204721579#4 204721579#6 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 40191606#0 40191606#2 40191606#3 414563781 206889086#1"/>
+        <busStop id="301263813" name="Altglienicke Kirche"/>
+        <busStop id="94487938" name="Altglienicker Brücke"/>
+        <busStop id="1383533462" name="Adlergestell/Glienicker Weg"/>
+        <busStop id="1862990707" name="Otto-Franke-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="1227011" name="Bus 163: S Adlershof =&gt; Flughafen BER - Terminal 5" line="163" type="bus" vClass="bus" completeness="0.26">
+        <route edges="806903753 218797686#0 72230304#1 461514282#0 461514282#1 204721578#0 977639651#1 153021553 318210353 207086005 977639652 318210360#0 152839434#1 43660343#0 43660343#1 48298278#0 48858192#1 318210388#0 -318210386#1 -81639678#0 -12749623 -318210387 -375685718#1 -375685718#0 -144909690"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+        <busStop id="3812676495" name="Otto-Franke-Straße"/>
+        <busStop id="1383533461" name="Adlergestell/Glienicker Weg"/>
+        <busStop id="-942861696" name="Altglienicker Brücke"/>
+        <busStop id="-94487924" name="Altglienicke Kirche"/>
+    </ptLine>
+    <ptLine id="1227012" name="Bus 163: S Schöneweide =&gt; Flughafen BER - Terminal 5" line="163" type="bus" vClass="bus" completeness="0.27">
+        <route edges="70130339#0 70130339#1 70130339#2 70130339#3 70130339#4 118262353#2 -38915290#2 -38915290#1 -318210378#1 -318210378#0 -887919960#5 -887919960#4 -887919960#0 -318210377#0 -31050360#2 143308552#1 143308549#1 143308549#2 143308549#3 143308549#5 140295392 158236381 220194458#3 806903753 218797686#0 72230304#1 461514282#0 461514282#1 204721578#0 977639651#1 153021553 318210353 207086005 977639652 318210360#0 152839434#1 43660343#0 43660343#1 48298278#0 48858192#1 318210388#0 -318210386#1 -81639678#0 -12749623 -318210387 -375685718#1 -375685718#0 -144909690"/>
+        <busStop id="2050022025" name="Landschaftspark Johannisthal"/>
+        <busStop id="-945142208" name="Hans-Schmidt-Straße"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+        <busStop id="3812676495" name="Otto-Franke-Straße"/>
+        <busStop id="1383533461" name="Adlergestell/Glienicker Weg"/>
+        <busStop id="-942861696" name="Altglienicker Brücke"/>
+        <busStop id="-94487924" name="Altglienicke Kirche"/>
+    </ptLine>
+    <ptLine id="1231708" name="Bus N60: S+U Alexanderplatz =&gt; Flughafen BER - Terminal 1-2" line="N60" type="bus" vClass="bus" nightService="only" completeness="0.11">
+        <route edges="318210355 206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 670062909#1 670062908#1 670062907#1 670062907#2 670062907#4 677933664#4 143308546#0 143308546#1 143308546#3 143308546#7 143308546#8 670062902#2 143308587#1 24214694#3 24214694#4 24214694#5 190083618#0 -283317455#1 -143308570 -318210395 -190083616 46150481#0 46150481#1"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="464396566" name="Walther-Nernst-Straße"/>
+        <busStop id="301331956" name="Magnusstraße"/>
+        <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="852932398" name="Wegedornstraße/Semmelweisstraße"/>
+    </ptLine>
+    <ptLine id="1231710" name="Bus 260: S Adlershof =&gt; U Rudow" line="260" type="bus" vClass="bus" completeness="0.27">
+        <route edges="206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 -318210361#2 -318210361#0 -314415495#25 -314415495#22 -314415495#21 -314415495#19 -314415495#17 -314415495#16 -314415495#15 -314415495#14 -314415495#13 -314415495#12 -314415495#11 -314415495#10 -314415495#9 -314415495#8 -314415495#7 -314415495#6 -314415495#5 -314415495#4 -314415495#3 -314415495#1 -314415495#0 -81639685#2 48858192#1 318210388#0 -318210386#1 -81639678#0 -12749623 -318210387 -375685718#1 -375685718#0 -144909690"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="-385200818" name="Albert-Einstein-Straße"/>
+        <busStop id="-1560223790" name="Wilhelm-Ostwald-Straße"/>
+        <busStop id="-1560223555" name="Am Studio/Köpenicker Straße"/>
+        <busStop id="-942861696" name="Altglienicker Brücke"/>
+        <busStop id="-94487924" name="Altglienicke Kirche"/>
+    </ptLine>
+    <ptLine id="2064835" name="Buslinie 164: S Köpenick =&gt; Flughafen BER - Terminal 5" line="164" type="bus" vClass="bus" completeness="0.31">
+        <route edges="-23913524#4 -23913524#3 -23913524#2 -23913524#1 -23913524#0 137534616#0 137534616#1 137534616#2 137534616#3 137534616#4 166142951#0 166142951#1 149611526#0 149611526#1 40191606#0 40191606#2 40191606#3 414563781 206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 670062909#1 670062908#1 670062907#1 670062907#2 670062907#4 677933664#4 143308546#0 143308546#1 143308546#3 143308546#7 143308546#8 670062902#2 143308587#1 24214694#3 24214694#4 24214694#5 190083618#0 -283317455#1 -143308570 -318210395 -190083616 46150481#0 46150481#1"/>
+        <busStop id="-1383533494" name="Büchnerweg"/>
+        <busStop id="1383533577" name="Radickestraße/Nipkowstraße"/>
+        <busStop id="1383533575" name="Radickestraße/Anna-Seghers-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="464396566" name="Walther-Nernst-Straße"/>
+        <busStop id="301331956" name="Magnusstraße"/>
+        <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="852932398" name="Wegedornstraße/Semmelweisstraße"/>
+    </ptLine>
+    <ptLine id="2077981" name="Tram 61: Adlershof, Karl-Ziegler-Straße =&gt; Rahnsdorf/Waldschänke" line="61" type="tram" vClass="tram" period="1200" completeness="0.17">
+        <route edges="385981675#1 158236729#1 158236729#2 158236729#3 158236729#4 158236729#5 158236729#6 158236729#8 158236729#9 220198808#1 220198808#4 220198808#5 220198808#6 220198808#9 220198808#12 220198808#13 220198808#14 158236381 220194458#3 806903753 218797686#0 386046454#4"/>
+        <busStop id="1704693343" name="Karl-Ziegler-Straße"/>
+        <busStop id="1704693389" name="Magnusstraße"/>
+        <busStop id="1704693457" name="Walther-Nernst-Straße"/>
+        <busStop id="583899039" name="S Adlershof"/>
+        <busStop id="-3892451598" name="Marktplatz Adlershof"/>
+    </ptLine>
+    <ptLine id="2077982" name="Tram 61: Rahnsdorf/Waldschänke =&gt; Adlershof, Karl-Ziegler-Straße" line="61" type="tram" vClass="tram" period="1200" completeness="0.14">
+        <route edges="179699939#0 179699939#1 179699939#2 179699939#3 179699939#4 179699939#5 179699939#6 179699939#7 179699939#12 179699939#13 179699939#14 179699939#15 179699936 179699938#6 179699938#7 179699938#8 206889079#1 206889079#2 206889079#3 206889079#6 206889079#9 206889079#10 206889079#11 206889079#14 206889079#15 220198810#1 220198810#3 220198810#4 220198810#5 220198810#6 220198810#7 220198810#8 220198810#9"/>
+        <busStop id="1704693444" name="S Adlershof"/>
+        <busStop id="1704693451" name="Walther-Nernst-Straße"/>
+        <busStop id="1704693381" name="Magnusstraße"/>
+        <busStop id="1704693369" name="Karl-Ziegler-Straße"/>
+    </ptLine>
+    <ptLine id="2084497" name="Tram 63: Adlershof, Karl-Ziegler-Straße =&gt; S Köpenick (=&gt; Mahlsdorf, Rahnsdorfer Straße)" line="63" type="tram" vClass="tram" period="1200" completeness="0.19">
+        <route edges="385981675#1 158236729#1 158236729#2 158236729#3 158236729#4 158236729#5 158236729#6 158236729#8 158236729#9 220198808#1 220198808#4 220198808#5 220198808#6 220198808#9 220198808#12 220198808#13 220198808#14 158236381 220194458#3 806903753 218797686#0 386046454#4"/>
+        <busStop id="1704693343" name="Karl-Ziegler-Straße"/>
+        <busStop id="1704693389" name="Magnusstraße"/>
+        <busStop id="1704693457" name="Walther-Nernst-Straße"/>
+        <busStop id="583899039" name="S Adlershof"/>
+        <busStop id="-3892451598" name="Marktplatz Adlershof"/>
+    </ptLine>
+    <ptLine id="2084498" name="Tram 63: (Mahlsdorf, Rahnsdorfer Straße =&gt;) S Köpenick =&gt; Adlershof, Karl-Ziegler-Straße" line="63" type="tram" vClass="tram" period="1200" completeness="0.16">
+        <route edges="179699939#0 179699939#1 179699939#2 179699939#3 179699939#4 179699939#5 179699939#6 179699939#7 179699939#12 179699939#13 179699939#14 179699939#15 179699936 179699938#6 179699938#7 179699938#8 206889079#1 206889079#2 206889079#3 206889079#6 206889079#9 206889079#10 206889079#11 206889079#14 206889079#15 220198810#1 220198810#3 220198810#4 220198810#5 220198810#6 220198810#7 220198810#8 220198810#9"/>
+        <busStop id="1704693444" name="S Adlershof"/>
+        <busStop id="1704693451" name="Walther-Nernst-Straße"/>
+        <busStop id="1704693381" name="Magnusstraße"/>
+        <busStop id="1704693369" name="Karl-Ziegler-Straße"/>
+    </ptLine>
+    <ptLine id="2139598" name="S45: S Flughafen BER - Terminal 1-2 =&gt; S Südkreuz" line="S45" type="train" vClass="rail" period="1200" completeness="0.07">
+        <route edges="22917994"/>
+        <busStop id="3508654675" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2139599" name="S45: S Südkreuz =&gt; S Flughafen BER - Terminal 1-2" line="S45" type="train" vClass="rail" period="1200" completeness="0.07">
+        <route edges="431786563 846012128"/>
+        <busStop id="30499115" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2212554" name="Bus N68: Alt-Schmöckwitz =&gt; S Adlershof" line="N68" type="bus" vClass="bus" nightService="only" completeness="0.40">
+        <route edges="670062919#0 670062919#1 192204854#0 204721579#2 204721579#4 204721579#6 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 40191606#0 40191606#2 40191606#3 414563781 206889086#1 541676219 318210389#0 318210389#2 -137483074#2 -137483074#0 976351540#0 976351540#1 52036180#1 52036180#3"/>
+        <busStop id="1383533462" name="Adlergestell/Glienicker Weg"/>
+        <busStop id="1862990707" name="Otto-Franke-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="8058787291" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2212555" name="Bus N68: S Adlershof =&gt; Alt-Schmöckwitz" line="N68" type="bus" vClass="bus" nightService="only" completeness="0.60">
+        <route edges="52036180#3 72230304#1 461514282#0 461514282#1 204721578#0 977639651#1 153021553 318210353 207086005 977639652 318210360#0 39969574#2"/>
+        <busStop id="8058787291" name="S Adlershof"/>
+        <busStop id="3812676495" name="Otto-Franke-Straße"/>
+        <busStop id="1383533461" name="Adlergestell/Glienicker Weg"/>
+    </ptLine>
+    <ptLine id="2221928" name="Bus 260: U Rudow =&gt; S Adlershof" line="260" type="bus" vClass="bus" completeness="0.27">
+        <route edges="144909690 375685718#0 375685718#1 382647882 12749623 81639678#0 81639678#1 48858191#1 318210383#0 81639685#1 314415495#0 314415495#1 314415495#3 314415495#4 314415495#5 314415495#6 314415495#7 314415495#8 314415495#9 314415495#10 314415495#11 314415495#12 314415495#13 314415495#14 314415495#15 314415495#16 314415495#17 314415495#19 314415495#21 314415495#22 314415495#25 318210361#0 318210361#1 143308549#1 143308549#2 143308549#3 143308549#5 140295392 158236381 220194458#3"/>
+        <busStop id="301263813" name="Altglienicke Kirche"/>
+        <busStop id="94487938" name="Altglienicker Brücke"/>
+        <busStop id="945142241" name="Am Studio/Köpenicker Straße"/>
+        <busStop id="664208807" name="Wilhelm-Ostwald-Straße"/>
+        <busStop id="385200819" name="Albert-Einstein-Straße"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2269251" name="S8: S Birkenwerder =&gt; S Zeuthen" line="S8" type="train" vClass="rail" period="1200" completeness="0.04">
+        <route edges="431786563 846012128"/>
+        <busStop id="30499115" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2269252" name="S8: S Zeuthen =&gt; S Birkenwerder" line="S8" type="train" vClass="rail" period="1200" completeness="0.04">
+        <route edges="22917994"/>
+        <busStop id="3508654675" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="228027" name="Buslinie 164: Flughafen BER - Terminal 5 =&gt; S Köpenick" line="164" type="bus" vClass="bus" completeness="0.30">
+        <route edges="-46150481#1 -46150481#0 190083616 318210395 143308570 283317455#0 -190083618#1 -24214694#5 -24214694#4 -24214694#3 143308590#0 143308542#1 143308542#3 143308542#4 143308542#6 143308542#8 143308542#12 143308542#13 143308542#14 143308542#15 143308552#1 143308549#1 143308549#2 143308549#3 143308549#5 140295392 158236381 220194458#3 806903753 218797686#0 -679901152#1 -45875465 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -137534616#4 -137534616#3 -137534616#2 -137534616#1 -137534616#0 23913524#0 23913524#1 23913524#2 23913524#3 23913524#4"/>
+        <busStop id="-851572693" name="Wegedornstraße/Semmelweisstraße"/>
+        <busStop id="464396487" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="306982602" name="Magnusstraße"/>
+        <busStop id="464396589" name="Walther-Nernst-Straße"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+        <busStop id="1383533459" name="Anna-Seghers-Straße"/>
+        <busStop id="-1383533578" name="Radickestraße/Nipkowstraße"/>
+        <busStop id="1383533492" name="Büchnerweg"/>
+    </ptLine>
+    <ptLine id="2389945" name="S9: S Flughafen BER - Terminal 1-2 =&gt; S Spandau" line="S9" type="train" vClass="rail" period="1200" completeness="0.03">
+        <route edges="22917994"/>
+        <busStop id="3508654675" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2389946" name="S9: S Spandau =&gt; S Flughafen BER - Terminal 1-2" line="S9" type="train" vClass="rail" period="1200" completeness="0.03">
+        <route edges="431786563 846012128"/>
+        <busStop id="30499115" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2422928" name="S46: S Königs Wusterhausen =&gt; S Westend" line="S46" type="train" vClass="rail" period="1200" completeness="0.04">
+        <route edges="22917994"/>
+        <busStop id="3508654675" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2422929" name="S46: S Westend =&gt; S Königs Wusterhausen" line="S46" type="train" vClass="rail" period="1200" completeness="0.04">
+        <route edges="431786563 846012128"/>
+        <busStop id="30499115" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2979449" name="S85: S Grünau =&gt; S Pankow" line="S85" type="train" vClass="rail" period="1200" completeness="0.06">
+        <route edges="22917994"/>
+        <busStop id="3508654675" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="2979451" name="S85: S Pankow =&gt; S Grünau" line="S85" type="train" vClass="rail" period="1200" completeness="0.06">
+        <route edges="431786563 846012128"/>
+        <busStop id="30499115" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="35009" name="Bus 163: Flughafen BER - Terminal 5 =&gt; S Schöneweide" line="163" type="bus" vClass="bus" completeness="0.27">
+        <route edges="144909690 375685718#0 375685718#1 382647882 12749623 81639678#0 81639678#1 48858191#1 318210383#0 52243916#1 -43660343#1 -43660343#0 10735918#0 204721579#2 204721579#4 204721579#6 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 40191606#0 40191606#2 40191606#3 414563781 206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 670062909#1 670062908#1 31050360#1 318210377#0 318210377#1 887919960#4 887919960#5 318210378#0 318210378#1 38915290#1 38915290#2 8025704#0 231626692#0 231626692#1"/>
+        <busStop id="301263813" name="Altglienicke Kirche"/>
+        <busStop id="94487938" name="Altglienicker Brücke"/>
+        <busStop id="1383533462" name="Adlergestell/Glienicker Weg"/>
+        <busStop id="1862990707" name="Otto-Franke-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="945142098" name="Hans-Schmidt-Straße"/>
+        <busStop id="2050022029" name="Landschaftspark Johannisthal"/>
+    </ptLine>
+    <ptLine id="35032" name="Bus 160: Altglienicke, Siriusstraße =&gt; S Schöneweide" line="160" type="bus" vClass="bus" completeness="0.23">
+        <route edges="81096611#0 81096611#1 81096611#2 169076556#0 169076556#1 169076556#2 169076556#3 190083616 318210395 143308570 283317455#0 -190083618#1 -24214694#5 -24214694#4 -24214694#3 143308590#0 143308532#1 143308532#4 143308532#7 46039051#1 -141968853#2 -141968853#1 -141968853#0 141968814#0 141968814#1 141968807#0 141968807#1 -141968830#2 -141968830#1 -141968830#0"/>
+        <busStop id="1568240825" name="Altglienicke Kirche"/>
+        <busStop id="851572829" name="Korkedamm"/>
+        <busStop id="301292770" name="Wegedornstraße/Semmelweisstraße"/>
+        <busStop id="671564316" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="837696418" name="James-Franck-Straße"/>
+        <busStop id="-1553912606" name="Akeleiweg"/>
+        <busStop id="-1094134880" name="Johannes-Sasse-Ring"/>
+    </ptLine>
+    <ptLine id="35040" name="Bus N60: Flughafen BER - Terminal 1-2 =&gt; S+U Alexanderplatz" line="N60" type="bus" vClass="bus" nightService="only" completeness="0.15">
+        <route edges="81096611#0 81096611#1 81096611#2 169076556#0 169076556#1 169076556#2 169076556#3 190083616 318210395 143308570 283317455#0 -190083618#1 -24214694#5 -24214694#4 -24214694#3 143308590#0 143308542#1 143308542#3 143308542#4 143308542#6 143308542#8 143308542#12 143308542#13 143308542#14 143308542#15 143308552#1 143308549#1 143308549#2 143308549#3 143308549#5 976351540#0 976351540#1 52036180#1 52036180#3 40191607#2 40191607#3 40191607#4"/>
+        <busStop id="1568240825" name="Altglienicke Kirche"/>
+        <busStop id="851572829" name="Korkedamm"/>
+        <busStop id="301292770" name="Wegedornstraße/Semmelweisstraße"/>
+        <busStop id="464396487" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="306982602" name="Magnusstraße"/>
+        <busStop id="464396589" name="Walther-Nernst-Straße"/>
+        <busStop id="8058787291" name="S Adlershof"/>
+    </ptLine>
+    <ptLine id="6783677" name="Bus 162: Schloßplatz Köpenick=&gt; U Rudow" line="162" type="bus" vClass="bus" completeness="0.38">
+        <route edges="-23913524#4 -23913524#3 -23913524#2 -23913524#1 -23913524#0 137534616#0 137534616#1 137534616#2 137534616#3 137534616#4 166142951#0 166142951#1 149611526#0 149611526#1 40191606#0 40191606#2 40191606#3 414563781 206889086#1 541676219 318210389#0 318210389#2 670062912#0 670062912#1 81639675#1 81639675#2 81639675#3 81639675#4 670062909#1 670062908#1 670062907#1 670062907#2 670062907#4 677933664#4 143308546#0 143308546#1 143308546#3 143308546#7 143308546#8 670062902#2 143308587#1 24214694#3 24214694#4 24214694#5 190083618#0 -283317455#1 -143308570 -318210395 -190083616 46150481#0 46150481#1"/>
+        <busStop id="-1383533494" name="Büchnerweg"/>
+        <busStop id="1383533577" name="Radickestraße/Nipkowstraße"/>
+        <busStop id="1383533575" name="Radickestraße/Anna-Seghers-Straße"/>
+        <busStop id="1656195133" name="S Adlershof"/>
+        <busStop id="464396566" name="Walther-Nernst-Straße"/>
+        <busStop id="301331956" name="Magnusstraße"/>
+        <busStop id="1560223236" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="852932398" name="Wegedornstraße/Semmelweisstraße"/>
+    </ptLine>
+    <ptLine id="6783678" name="Bus 162: U Rudow =&gt; Schloßplatz Köpenick" line="162" type="bus" vClass="bus" completeness="0.40">
+        <route edges="-46150481#1 -46150481#0 190083616 318210395 143308570 283317455#0 -190083618#1 -24214694#5 -24214694#4 -24214694#3 143308590#0 143308542#1 143308542#3 143308542#4 143308542#6 143308542#8 143308542#12 143308542#13 143308542#14 143308542#15 143308552#1 143308549#1 143308549#2 143308549#3 143308549#5 140295392 158236381 220194458#3 806903753 218797686#0 -679901152#1 -45875465 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -137534616#4 -137534616#3 -137534616#2 -137534616#1 -137534616#0 23913524#0 23913524#1 23913524#2 23913524#3 23913524#4"/>
+        <busStop id="-851572693" name="Wegedornstraße/Semmelweisstraße"/>
+        <busStop id="464396487" name="Rudower Chaussee/Wegedornstraße"/>
+        <busStop id="306982602" name="Magnusstraße"/>
+        <busStop id="464396589" name="Walther-Nernst-Straße"/>
+        <busStop id="5315085711" name="S Adlershof"/>
+        <busStop id="1383533459" name="Anna-Seghers-Straße"/>
+        <busStop id="-1383533578" name="Radickestraße/Nipkowstraße"/>
+        <busStop id="1383533492" name="Büchnerweg"/>
+    </ptLine>
+</ptLines>

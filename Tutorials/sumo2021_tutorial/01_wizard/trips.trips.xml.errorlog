@@ -1,0 +1,19 @@
+Warning: At actuated tlLogic 'GS_158710664', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_101333380_1652675105_1704693841_2169462573_3366619456_3366620150_3366620151_3366620152_3366620154_3366620155_3366620157_3646631965_5226716099_5226720613_5226721573_8243171059_8243171060_8243171061_8243171062_8243171063_8243171064', linkIndex 21 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_101333380_1652675105_1704693841_2169462573_3366619456_3366620150_3366620151_3366620152_3366620154_3366620155_3366620157_3646631965_5226716099_5226720613_5226721573_8243171059_8243171060_8243171061_8243171062_8243171063_8243171064', linkIndex 22 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_101333380_1652675105_1704693841_2169462573_3366619456_3366620150_3366620151_3366620152_3366620154_3366620155_3366620157_3646631965_5226716099_5226720613_5226721573_8243171059_8243171060_8243171061_8243171062_8243171063_8243171064', linkIndex 23 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585712_493585714_57343510_8252472943_8252472944', actuated phase 8 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585712_493585714_57343510_8252472943_8252472944', actuated phase 11 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585712_493585714_57343510_8252472943_8252472944', linkIndex 19 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1560223510_175648134_1906766906_1906766907_1906766908_493585712_493585714_57343510_8252472943_8252472944', linkIndex 20 has no controlling detector.
+Warning: busStop '1560223236' on lane '143308587#1_2' is too short for vehicle '0_bus_160:0'.
+Warning: busStop '5315085711' on lane '806903753_1' is too short for vehicle '6_bus_162:1'.
+Warning: Vehicle '13_tram_61:0' is not allowed to stop on lane '-178028204#3_1'.
+Warning: Vehicle '13_tram_61:0' is not allowed on destination edge '-178028204#3'.
+Warning: busStop '583899039' for vehicle '13_tram_61:0' on lane '218797686#0_1' is not downstream the current route.
+Warning: Vehicle '13_tram_61:0' is not allowed to stop on lane '-178028204#3_1'.
+Warning: Vehicle '15_tram_63:0' is not allowed to stop on lane '-178028204#3_1'.
+Warning: Vehicle '15_tram_63:0' is not allowed on destination edge '-178028204#3'.
+Warning: busStop '583899039' for vehicle '15_tram_63:0' on lane '218797686#0_1' is not downstream the current route.
+Warning: Vehicle '15_tram_63:0' is not allowed to stop on lane '-178028204#3_1'.
+Warning: 14 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

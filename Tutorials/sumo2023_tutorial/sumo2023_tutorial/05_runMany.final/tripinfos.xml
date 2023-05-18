@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-26 15:00:42 by Eclipse SUMO GUI Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\osm.net.xml.gz"/>
+        <route-files value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\bikes.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\tripinfos.xml"/>
+        <personinfo-output value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\personinfos.xml"/>
+        <edgedata-output value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\edgedata.xml"/>
+        <statistic-output value="C:\erdm_ja\sip-svn-trunk\papers\DLR\SUMO_Conference2023\tutorial\05_runMany.final\stats.xml"/>
+    </output>
+
+    <processing>
+        <lateral-resolution value="0"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
