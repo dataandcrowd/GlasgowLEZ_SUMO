@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-30 14:58:02.096116 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="glasgow.net.xml"/>
+    <output-trip-file value="bus_trips.xml"/>
+    <route-file value="bus_routes.rou.xml"/>
+    <trip-attributes value="accel=&quot;0.8&quot;"/>
+    <end value="600"/>
+    <vehicle-class value="bus"/>
+    <period value="30.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" accel="0.8"/>
+    <trip id="0" depart="0.00" from="45073628#6" to="-125068105" type="bus"/>
+    <trip id="1" depart="30.00" from="-77670352#1" to="-4904149#1" type="bus"/>
+    <trip id="2" depart="60.00" from="4717459#2" to="45494754" type="bus"/>
+    <trip id="3" depart="90.00" from="53804609#0" to="-250478229#4" type="bus"/>
+    <trip id="4" depart="120.00" from="20279750#0" to="-139718604#1" type="bus"/>
+    <trip id="5" depart="150.00" from="-485899794#3" to="26733953#1" type="bus"/>
+    <trip id="6" depart="180.00" from="-131860123#1" to="-4844447#3" type="bus"/>
+    <trip id="7" depart="210.00" from="4521175#0" to="384186897" type="bus"/>
+    <trip id="8" depart="240.00" from="-48610084#2" to="4397805" type="bus"/>
+    <trip id="9" depart="270.00" from="478853369" to="-102147604#0" type="bus"/>
+    <trip id="10" depart="300.00" from="4787501#1" to="4642302#3" type="bus"/>
+    <trip id="11" depart="330.00" from="1136445712#1" to="-4548199#2" type="bus"/>
+    <trip id="12" depart="360.00" from="8073926#3" to="114001660#2" type="bus"/>
+    <trip id="13" depart="390.00" from="-25548629#1" to="-28891837#0" type="bus"/>
+    <trip id="14" depart="420.00" from="48610084#1" to="4483920#1" type="bus"/>
+    <trip id="15" depart="450.00" from="4787503" to="47168895#0" type="bus"/>
+    <trip id="16" depart="480.00" from="380618974#2" to="8751890#0" type="bus"/>
+    <trip id="17" depart="510.00" from="144176630#0" to="384218090" type="bus"/>
+    <trip id="18" depart="540.00" from="4839476" to="4494926#2" type="bus"/>
+    <trip id="19" depart="570.00" from="4904139#4" to="42796907#1" type="bus"/>
+</routes>

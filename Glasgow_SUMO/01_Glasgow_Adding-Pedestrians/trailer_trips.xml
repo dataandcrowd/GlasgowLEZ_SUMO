@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-30 14:58:21.683315 by randomTrips.py v1_17_0+0000-737931d58da
+<configuration>
+    <net-file value="glasgow.net.xml"/>
+    <output-trip-file value="trailer_trips.xml"/>
+    <route-file value="trailer_routes.rou.xml"/>
+    <trip-attributes value="color=&quot;223,179,180&quot; accel=&quot;0.5&quot;"/>
+    <end value="600"/>
+    <vehicle-class value="trailer"/>
+    <period value="150.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="trailer" vClass="trailer" color="223,179,180" accel="0.5"/>
+    <trip id="0" depart="0.00" from="45073628#6" to="-125068105" type="trailer"/>
+    <trip id="1" depart="150.00" from="-77670352#1" to="-4904149#1" type="trailer"/>
+    <trip id="2" depart="300.00" from="4717459#2" to="45494754" type="trailer"/>
+    <trip id="3" depart="450.00" from="53804609#0" to="-250478229#4" type="trailer"/>
+</routes>
