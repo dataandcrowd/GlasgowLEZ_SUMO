@@ -7,6 +7,7 @@
     <flow id="pkw" type="pkw" from="beg" to="end" begin="0" end="0" number="66" departPos="last"/>
     <flow id="bus" type="bus" from="beg" to="end" begin="0" end="0" number="5" departPos="last"/>
     <flow id="tram" type="tram" from="beg" to="end" begin="0" end="0" number="2" departPos="last"/>
+    <flow id="bike" type="bike" from="beg" to="end" begin="0" end="0" number="100" departPos="last"/>
 
     <personFlow id="pedestrian" type="pedestrian" begin="0" end="0" number="100" departPos="-30">
        <walk from="beg" to="end" arrivalPos="-0.1"/>
