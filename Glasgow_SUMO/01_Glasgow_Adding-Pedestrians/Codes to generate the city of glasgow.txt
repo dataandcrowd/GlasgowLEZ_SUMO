@@ -1,4 +1,4 @@
-netconvert --osm-files map.osm -o test.net.xml -t osmNetconvert.typ.xml --xml-validation never
+netconvert --osm-files glasgow.osm --osm.sidewalks -o test.net.xml -t osmNetconvert.typ.xml --xml-validation never
 
 polyconvert --net-file test.net.xml --osm-files map.osm --type-file typemap.xml -o map.poly.xml --xml-validation never
 

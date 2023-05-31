@@ -3,7 +3,7 @@
 Reference: https://www.youtube.com/watch?v=Mh4WnY4KY4Y
 
 ### 1. Generate the network file (glasgow.net.xml) using the netconvert
-netconvert --osm-files glasgow.osm -o glasgow.net.xml --junctions.join --roundabouts.guess --osm.elevation --tls.guess
+netconvert --osm-files glasgow.osm -o glasgow.net.xml --junctions.join --roundabouts.guess --osm.elevation --tls.guess --osm.sidewalks 
 
 ### 2. Import polygons from OSM-data and produces a sumo-polygon file
 polyconvert --net-file glasgow.net.xml --osm-files glasgow.osm --type-file typemap.xml -o glasgow.poly.xml 

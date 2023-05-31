@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-05-31 13:59:48 by Eclipse SUMO netedit Version 1.17.0
+<!-- generated on 2023-05-31 15:53:08 by Eclipse SUMO netedit Version v1_16_0+2742-a558fa1bb55
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\github\GlasgowLEZ\Tutorials_Self\sumolympics.net.xml"/>
+        <sumo-net-file value="/Users/hyesopshin/Github/GlasgowLEZ/Tutorials_Self/sumolympics.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\github\GlasgowLEZ\Tutorials_Self\sumolympics.net.xml"/>
+        <output-file value="/Users/hyesopshin/Github/GlasgowLEZ/Tutorials_Self/sumolympics.net.xml"/>
     </output>
 
     <processing>
@@ -45,14 +45,14 @@
         <lane id="beg_4" index="4" allow="rail_urban" speed="13.89" length="100.00" shape="900.00,-1.60 1000.00,-1.60"/>
     </edge>
     <edge id="end" from="J0" to="J2" priority="-1">
-        <lane id="end_0" index="0" allow="pedestrian" speed="13.89" length="900.00" width="2.00" shape="0.00,-12.70 900.00,-12.70"/>
-        <lane id="end_1" index="1" allow="bicycle" speed="13.89" length="900.00" width="2.10" shape="0.00,-10.65 900.00,-10.65"/>
-        <lane id="end_2" index="2" allow="bus" speed="13.89" length="900.00" shape="0.00,-8.00 900.00,-8.00"/>
-        <lane id="end_3" index="3" allow="passenger" speed="13.89" length="900.00" shape="0.00,-4.80 900.00,-4.80"/>
-        <lane id="end_4" index="4" allow="rail_urban" speed="13.89" length="900.00" shape="0.00,-1.60 900.00,-1.60"/>
+        <lane id="end_0" index="0" allow="pedestrian" speed="13.89" length="900.00" width="2.00" shape="-0.00,-12.70 900.00,-12.70"/>
+        <lane id="end_1" index="1" allow="bicycle" speed="13.89" length="900.00" width="2.10" shape="-0.00,-10.65 900.00,-10.65"/>
+        <lane id="end_2" index="2" allow="bus" speed="13.89" length="900.00" shape="-0.00,-8.00 900.00,-8.00"/>
+        <lane id="end_3" index="3" allow="passenger" speed="13.89" length="900.00" shape="-0.00,-4.80 900.00,-4.80"/>
+        <lane id="end_4" index="4" allow="rail_urban" speed="13.89" length="900.00" shape="-0.00,-1.60 900.00,-1.60"/>
     </edge>
 
-    <junction id="J0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-13.70"/>
+    <junction id="J0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="-0.00,0.00 -0.00,-13.70"/>
     <junction id="J1" type="dead_end" x="1000.00" y="0.00" incLanes="beg_0 beg_1 beg_2 beg_3 beg_4" intLanes="" shape="1000.00,-13.70 1000.00,0.00"/>
     <junction id="J2" type="priority" x="900.00" y="0.00" incLanes="end_0 end_1 end_2 end_3 end_4" intLanes="" shape="900.00,0.00 900.00,-13.70 900.00,0.00">
         <request index="0" response="00000" foes="00000"/>
