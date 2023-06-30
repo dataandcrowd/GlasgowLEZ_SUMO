@@ -1,1 +1,0 @@
-python "%SUMO_HOME%\tools\randomTrips.py" -n osm.net.xml --fringe-factor 1 -p 1.223640 -o gtfs.pedestrian.trips.xml -b 16:0:0 -e 16:30:0 -r gtfs.pedestrian.rou.xml --vehicle-class pedestrian --persontrips --prefix ped --trip-attributes "modes=\"public\"" --additional-files vType.xml,gtfs_publictransport.add.xml,gtfs_publictransport.rou.xml --persontrip.walk-opposite-factor 0.8

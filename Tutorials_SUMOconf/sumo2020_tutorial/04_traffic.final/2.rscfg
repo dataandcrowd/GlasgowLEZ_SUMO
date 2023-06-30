@@ -1,6 +1,0 @@
-<configuration>
-    <edgedata-files value="edgecounts.xml"/>
-    <output-file value="passenger.sampled2.rou.xml"/>
-    <route-files value="vehroutes.xml"/>
-    <turn-files value="turncounts.xml"/>
-</configuration>
