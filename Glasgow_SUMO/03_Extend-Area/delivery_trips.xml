@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-07-03 13:44:26.348976 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="glasgow.net.xml"/>
+    <output-trip-file value="delivery_trips.xml"/>
+    <route-file value="delivery_routes.rou.xml"/>
+    <trip-attributes value="color=&quot;115,211,230&quot;"/>
+    <end value="600"/>
+    <vehicle-class value="delivery"/>
+    <period value="30.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="delivery" vClass="delivery" color="115,211,230"/>
+    <trip id="0" depart="0.00" from="24317629#0" to="-143755503#0" type="delivery"/>
+    <trip id="1" depart="30.00" from="-4476040#6" to="-35165195" type="delivery"/>
+    <trip id="2" depart="60.00" from="382895557" to="29128149#0" type="delivery"/>
+    <trip id="3" depart="90.00" from="544352990" to="-20903342#3" type="delivery"/>
+    <trip id="4" depart="120.00" from="-940159536#0" to="-14593585#1" type="delivery"/>
+    <trip id="5" depart="150.00" from="-30879719#1" to="19785210#0" type="delivery"/>
+    <trip id="6" depart="180.00" from="-143755503#6" to="-30878942#2" type="delivery"/>
+    <trip id="7" depart="210.00" from="24324842#3" to="20907297#2" type="delivery"/>
+    <trip id="8" depart="240.00" from="-30880116#0" to="24246798" type="delivery"/>
+    <trip id="9" depart="270.00" from="45565399#1" to="-1089452022#2" type="delivery"/>
+    <trip id="10" depart="300.00" from="4548377#10" to="30879948#1" type="delivery"/>
+    <trip id="11" depart="330.00" from="-4995516#5" to="-24317510#5" type="delivery"/>
+    <trip id="12" depart="360.00" from="8147174#1" to="-54643524#1" type="delivery"/>
+    <trip id="13" depart="390.00" from="-20904356#4" to="-209281125#2" type="delivery"/>
+    <trip id="14" depart="420.00" from="4745018#2" to="24298973#9" type="delivery"/>
+    <trip id="15" depart="450.00" from="45489030#0" to="380554728" type="delivery"/>
+    <trip id="16" depart="480.00" from="20279756#3" to="8751894#1" type="delivery"/>
+    <trip id="17" depart="510.00" from="-7581303#4" to="209284796#3" type="delivery"/>
+    <trip id="18" depart="540.00" from="4644897#2" to="24316719#0" type="delivery"/>
+    <trip id="19" depart="570.00" from="4853105#3" to="23734286#2" type="delivery"/>
+</routes>
