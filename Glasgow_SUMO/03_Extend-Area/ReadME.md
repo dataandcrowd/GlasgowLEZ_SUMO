@@ -2,6 +2,11 @@
 
 Reference: https://www.youtube.com/watch?v=Mh4WnY4KY4Y
 
+### 0. Extract the Zip files
+Due to the upload limit (<25mb), I compressed the osm and network files to zip files.
+To run the commands below, you have to unzip them first.
+
+
 ### 1. Generate the network file (glasgow.net.xml) using the netconvert
 netconvert --osm-files glasgow.osm -o glasgow.net.xml --junctions.join --roundabouts.guess --osm.elevation --tls.guess --osm.sidewalks --tls.ignore-internal-junction-jam
 

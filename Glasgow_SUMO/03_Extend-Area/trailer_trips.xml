@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-07-03 13:44:34.219140 by randomTrips.py UNKNOWN
+<!-- generated on 2023-07-03 14:19:43.843158 by randomTrips.py v1_18_0+0000-03ecfdea036
 <configuration>
     <net-file value="glasgow.net.xml"/>
     <output-trip-file value="trailer_trips.xml"/>
@@ -14,8 +14,8 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="trailer" vClass="trailer" color="223,179,180" accel="0.5"/>
-    <trip id="0" depart="0.00" from="24317629#0" to="-143755503#0" type="trailer"/>
-    <trip id="1" depart="150.00" from="-4476040#6" to="-35165195" type="trailer"/>
-    <trip id="2" depart="300.00" from="382895557" to="29128149#0" type="trailer"/>
-    <trip id="3" depart="450.00" from="544352990" to="-20903342#3" type="trailer"/>
+    <trip id="0" depart="0.00" from="250478227#2" to="-123192869" type="trailer"/>
+    <trip id="1" depart="150.00" from="-4570535" to="-401747361" type="trailer"/>
+    <trip id="2" depart="300.00" from="385312769" to="30726907" type="trailer"/>
+    <trip id="3" depart="450.00" from="585960770#1" to="-20904356#0" type="trailer"/>
 </routes>
